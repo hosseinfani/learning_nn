@@ -1,0 +1,29 @@
+C:\Users\Administrator\Anaconda3\python.exe C:/Users/Administrator/Github/ToySampleDL/bool.py
+C:\Users\Administrator\Anaconda3\lib\site-packages\torch\nn\modules\loss.py:94: UserWarning: Using a target size (torch.Size([])) that is different to the input size (torch.Size([1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.l1_loss(input, target, reduction=self.reduction)
+Test Loss: 0.004490703253082984
+Accuracy: 100.0%
+and: sigmoid(WI:tensor([10.1370, 10.1370], grad_fn=<SelectBackward>) + b:-15.375616073608398)
+
+Test Loss: 0.00043392181396484375
+Accuracy: 100.0%
+and: relu(WI:tensor([8.8370, 8.8369], grad_fn=<SelectBackward>) + b:-16.67564582824707)
+
+Test Loss: 0.0004777881258632988
+Accuracy: 100.0%
+or: sigmoid(WI:tensor([14.6036, 14.6036], grad_fn=<SelectBackward>) + b:-7.027960777282715)
+
+Test Loss: 0.2527174949645996
+Accuracy: 100.0%
+or: relu(WI:tensor([0.9833, 1.0033], grad_fn=<SelectBackward>) + b:0.002104818820953369)
+
+Test Loss: 0.2523392998846248
+Accuracy: 75.0%
+xor: sigmoid(WI:tensor([11.4282, 11.4283], grad_fn=<SelectBackward>) + b:-5.252406597137451)
+
+Test Loss: 0.49999998323619366
+Accuracy: 75.0%
+xor: relu(WI:tensor([0.9880, 0.9881], grad_fn=<SelectBackward>) + b:0.00761895626783371)
+
+
+Process finished with exit code 0

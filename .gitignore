@@ -1,0 +1,9 @@
+2003BengioLM/.idea/
+2003BengioLM/.DS_Store
+*.pyc
+2003BengioLM/data/news_title_preprocess.txt
+2003BengioLM/data/reddit_worldnews.csv
+2003BengioLM/model/w2v_model_w5_d100
+*.ptc
+ToySamples/.idea/
+!*log
