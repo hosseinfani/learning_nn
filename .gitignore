@@ -7,3 +7,4 @@
 *.ptc
 ToySamples/.idea/
 !*log
+.idea/

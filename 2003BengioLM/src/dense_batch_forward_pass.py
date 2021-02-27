@@ -117,5 +117,3 @@ for e in range(params.lm['e']):#epochs
         #bengiolm_w2v.train() #turn on the dropout back
 print(f'Model architecture:{bengiolm_w2v}')
 
-#model save
-#model load

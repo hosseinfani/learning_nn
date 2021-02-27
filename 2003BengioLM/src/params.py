@@ -1,3 +1,10 @@
+import random
+random.seed(0)
+import torch
+torch.manual_seed(0)
+import numpy as np
+np.random.seed(0)
+
 lm = {
     'h': 100,#size of hidden space
     'w': 5, #context window size P(w+1 | 1, ..., w)
