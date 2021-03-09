@@ -2,7 +2,7 @@ from torch import nn
 import torch
 import torch.nn.functional as F
 
-class BengioLM(nn.Module):
+class BengioNLM(nn.Module):
     def __init__(self, params, gpu=False):
         super().__init__()
         if gpu: self.cuda()
@@ -29,7 +29,7 @@ class BengioLM(nn.Module):
         extra = '_'.join([k + str(v) for k, v in kwargs.items()])
         torch.save(model, f"{path}/{type(self).__name__}_w{self.params['w']}_d{self.params['d']}_h{self.params['h']}_v{self.params['v']}{extra}.ptc")
 
-#BengioLM = nn.Sequential(nn.Linear(w * d, h),
+#BengioNLM = nn.Sequential(nn.Linear(w * d, h),
 #                         nn.Tanh(),
 #                         nn.Linear(h, v))
 #                         nn.Softmax())

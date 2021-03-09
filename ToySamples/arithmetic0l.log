@@ -1,0 +1,413 @@
+C:\Users\Administrator\Anaconda3\python.exe C:/Users/Administrator/Github/learning_nn/ToySamples/arithmetic.py
+C:\Users\Administrator\Anaconda3\lib\site-packages\torch\nn\modules\loss.py:94: UserWarning: Using a target size (torch.Size([1])) that is different to the input size (torch.Size([1, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.l1_loss(input, target, reduction=self.reduction)
+Epoch: 0/100	Batch Loss:9.141439148662041	Test: (tensor([[ 93., -89.]], device='cuda:0'), +) => tensor([4.], device='cuda:0') == tensor([[27.7106]], device='cuda:0')Test Loss: 23.710573196411133	
+Epoch: 1/100	Batch Loss:4.912627110675889	Test: (tensor([[-73.,   3.]], device='cuda:0'), +) => tensor([-70.], device='cuda:0') == tensor([[-71.9487]], device='cuda:0')Test Loss: 1.9486541748046875	
+Epoch: 2/100	Batch Loss:5.0985539616370685	Test: (tensor([[-31., -73.]], device='cuda:0'), +) => tensor([-104.], device='cuda:0') == tensor([[-109.8326]], device='cuda:0')Test Loss: 5.8325653076171875	
+Epoch: 3/100	Batch Loss:5.414144610872074	Test: (tensor([[-44., -32.]], device='cuda:0'), +) => tensor([-76.], device='cuda:0') == tensor([[-78.3954]], device='cuda:0')Test Loss: 2.3953628540039062	
+Epoch: 4/100	Batch Loss:3.0469200716791103	Test: (tensor([[-82., -68.]], device='cuda:0'), +) => tensor([-150.], device='cuda:0') == tensor([[-152.5187]], device='cuda:0')Test Loss: 2.5186920166015625	
+Epoch: 5/100	Batch Loss:4.238871601695309	Test: (tensor([[-44., -32.]], device='cuda:0'), +) => tensor([-76.], device='cuda:0') == tensor([[-70.3527]], device='cuda:0')Test Loss: 5.647254943847656	
+Epoch: 6/100	Batch Loss:3.486913720259861	Test: (tensor([[  1., -34.]], device='cuda:0'), +) => tensor([-33.], device='cuda:0') == tensor([[-32.2640]], device='cuda:0')Test Loss: 0.7359809875488281	
+Epoch: 7/100	Batch Loss:3.6066996254483046	Test: (tensor([[-27., -59.]], device='cuda:0'), +) => tensor([-86.], device='cuda:0') == tensor([[-81.5008]], device='cuda:0')Test Loss: 4.499237060546875	
+Epoch: 8/100	Batch Loss:5.055832551450146	Test: (tensor([[-78., -42.]], device='cuda:0'), +) => tensor([-120.], device='cuda:0') == tensor([[-128.7349]], device='cuda:0')Test Loss: 8.734893798828125	
+Epoch: 9/100	Batch Loss:8.130005982457375	Test: (tensor([[-65., -84.]], device='cuda:0'), +) => tensor([-149.], device='cuda:0') == tensor([[-141.3709]], device='cuda:0')Test Loss: 7.6291351318359375	
+Epoch: 10/100	Batch Loss:5.592524662917974	Test: (tensor([[-53.,   8.]], device='cuda:0'), +) => tensor([-45.], device='cuda:0') == tensor([[-50.5710]], device='cuda:0')Test Loss: 5.570953369140625	
+Epoch: 11/100	Batch Loss:3.206103082214083	Test: (tensor([[ 70., -16.]], device='cuda:0'), +) => tensor([54.], device='cuda:0') == tensor([[54.8265]], device='cuda:0')Test Loss: 0.8265304565429688	
+Epoch: 12/100	Batch Loss:3.632510322697309	Test: (tensor([[ 78., -57.]], device='cuda:0'), +) => tensor([21.], device='cuda:0') == tensor([[20.6144]], device='cuda:0')Test Loss: 0.3856029510498047	
+Epoch: 13/100	Batch Loss:5.9738291945992685	Test: (tensor([[-87.,  57.]], device='cuda:0'), +) => tensor([-30.], device='cuda:0') == tensor([[-30.8311]], device='cuda:0')Test Loss: 0.8311347961425781	
+Epoch: 14/100	Batch Loss:4.53262970033957	Test: (tensor([[-65., -84.]], device='cuda:0'), +) => tensor([-149.], device='cuda:0') == tensor([[-123.9478]], device='cuda:0')Test Loss: 25.052154541015625	
+Epoch: 15/100	Batch Loss:5.555161552161587	Test: (tensor([[ 7., 60.]], device='cuda:0'), +) => tensor([67.], device='cuda:0') == tensor([[73.8934]], device='cuda:0')Test Loss: 6.893363952636719	
+Epoch: 16/100	Batch Loss:4.869644930776285	Test: (tensor([[ 7., 60.]], device='cuda:0'), +) => tensor([67.], device='cuda:0') == tensor([[68.8145]], device='cuda:0')Test Loss: 1.8144760131835938	
+Epoch: 17/100	Batch Loss:3.4150505625471776	Test: (tensor([[-50., -27.]], device='cuda:0'), +) => tensor([-77.], device='cuda:0') == tensor([[-69.8397]], device='cuda:0')Test Loss: 7.160346984863281	
+Epoch: 18/100	Batch Loss:4.31742446823996	Test: (tensor([[ 93., -89.]], device='cuda:0'), +) => tensor([4.], device='cuda:0') == tensor([[-7.1457]], device='cuda:0')Test Loss: 11.145695686340332	
+Epoch: 19/100	Batch Loss:4.049941436976803	Test: (tensor([[-23.,  58.]], device='cuda:0'), +) => tensor([35.], device='cuda:0') == tensor([[40.4543]], device='cuda:0')Test Loss: 5.454257965087891	
+Epoch: 20/100	Batch Loss:3.823573709750662	Test: (tensor([[-16.,  50.]], device='cuda:0'), +) => tensor([34.], device='cuda:0') == tensor([[35.2434]], device='cuda:0')Test Loss: 1.2433662414550781	
+Epoch: 21/100	Batch Loss:3.649927929347875	Test: (tensor([[15., 18.]], device='cuda:0'), +) => tensor([33.], device='cuda:0') == tensor([[31.3064]], device='cuda:0')Test Loss: 1.693634033203125	
+Epoch: 22/100	Batch Loss:2.36585262630667	Test: (tensor([[ 78., -57.]], device='cuda:0'), +) => tensor([21.], device='cuda:0') == tensor([[18.7250]], device='cuda:0')Test Loss: 2.275005340576172	
+Epoch: 23/100	Batch Loss:2.0152642860704537	Test: (tensor([[ 35., -17.]], device='cuda:0'), +) => tensor([18.], device='cuda:0') == tensor([[16.7386]], device='cuda:0')Test Loss: 1.2614250183105469	
+Epoch: 24/100	Batch Loss:0.6060614185977955	Test: (tensor([[-12., -22.]], device='cuda:0'), +) => tensor([-34.], device='cuda:0') == tensor([[-34.3821]], device='cuda:0')Test Loss: 0.38211822509765625	
+Epoch: 25/100	Batch Loss:0.3333071286276895	Test: (tensor([[ 95., -15.]], device='cuda:0'), +) => tensor([80.], device='cuda:0') == tensor([[79.2265]], device='cuda:0')Test Loss: 0.7734832763671875	
+Epoch: 26/100	Batch Loss:0.4034155029423383	Test: (tensor([[71., 57.]], device='cuda:0'), +) => tensor([128.], device='cuda:0') == tensor([[127.9428]], device='cuda:0')Test Loss: 0.05716705322265625	
+Epoch: 27/100	Batch Loss:0.28068677877665177	Test: (tensor([[ -3., -17.]], device='cuda:0'), +) => tensor([-20.], device='cuda:0') == tensor([[-20.0860]], device='cuda:0')Test Loss: 0.08599662780761719	
+Epoch: 28/100	Batch Loss:0.4111275491969926	Test: (tensor([[-73.,   3.]], device='cuda:0'), +) => tensor([-70.], device='cuda:0') == tensor([[-70.5728]], device='cuda:0')Test Loss: 0.5728302001953125	
+Epoch: 29/100	Batch Loss:0.5017986877118142	Test: (tensor([[ 7., 14.]], device='cuda:0'), +) => tensor([21.], device='cuda:0') == tensor([[20.8464]], device='cuda:0')Test Loss: 0.15364456176757812	
+Epoch: 30/100	Batch Loss:0.2575235228073232	Test: (tensor([[ 93., -89.]], device='cuda:0'), +) => tensor([4.], device='cuda:0') == tensor([[4.5206]], device='cuda:0')Test Loss: 0.5206141471862793	
+Epoch: 31/100	Batch Loss:0.362500434323233	Test: (tensor([[ 61., -88.]], device='cuda:0'), +) => tensor([-27.], device='cuda:0') == tensor([[-27.1205]], device='cuda:0')Test Loss: 0.12046051025390625	
+Epoch: 32/100	Batch Loss:0.5528992618225059	Test: (tensor([[-58.,  71.]], device='cuda:0'), +) => tensor([13.], device='cuda:0') == tensor([[13.5521]], device='cuda:0')Test Loss: 0.552098274230957	
+Epoch: 33/100	Batch Loss:0.4045258177330299	Test: (tensor([[-22.,  76.]], device='cuda:0'), +) => tensor([54.], device='cuda:0') == tensor([[54.8088]], device='cuda:0')Test Loss: 0.8087654113769531	
+Epoch: 34/100	Batch Loss:0.3703720029063371	Test: (tensor([[-25., -16.]], device='cuda:0'), +) => tensor([-41.], device='cuda:0') == tensor([[-40.8505]], device='cuda:0')Test Loss: 0.14954376220703125	
+Epoch: 35/100	Batch Loss:0.42752038147680615	Test: (tensor([[ 11., -12.]], device='cuda:0'), +) => tensor([-1.], device='cuda:0') == tensor([[-0.9132]], device='cuda:0')Test Loss: 0.08678913116455078	
+Epoch: 36/100	Batch Loss:0.5182880065498912	Test: (tensor([[26., 19.]], device='cuda:0'), +) => tensor([45.], device='cuda:0') == tensor([[44.9856]], device='cuda:0')Test Loss: 0.01438140869140625	
+Epoch: 37/100	Batch Loss:0.43607753180727665	Test: (tensor([[-22.,  76.]], device='cuda:0'), +) => tensor([54.], device='cuda:0') == tensor([[53.8057]], device='cuda:0')Test Loss: 0.1943206787109375	
+Epoch: 38/100	Batch Loss:0.6258038838527032	Test: (tensor([[-54., -65.]], device='cuda:0'), +) => tensor([-119.], device='cuda:0') == tensor([[-119.2016]], device='cuda:0')Test Loss: 0.201568603515625	
+Epoch: 39/100	Batch Loss:0.5306143892966971	Test: (tensor([[-60.,  69.]], device='cuda:0'), +) => tensor([9.], device='cuda:0') == tensor([[9.9904]], device='cuda:0')Test Loss: 0.9903583526611328	
+Epoch: 40/100	Batch Loss:0.373869821505279	Test: (tensor([[-10.,  84.]], device='cuda:0'), +) => tensor([74.], device='cuda:0') == tensor([[73.6892]], device='cuda:0')Test Loss: 0.310760498046875	
+Epoch: 41/100	Batch Loss:0.4211882726878536	Test: (tensor([[-23.,  58.]], device='cuda:0'), +) => tensor([35.], device='cuda:0') == tensor([[34.8605]], device='cuda:0')Test Loss: 0.13954544067382812	
+Epoch: 42/100	Batch Loss:0.47040661812132717	Test: (tensor([[ 19., -40.]], device='cuda:0'), +) => tensor([-21.], device='cuda:0') == tensor([[-20.7628]], device='cuda:0')Test Loss: 0.23717880249023438	
+Epoch: 43/100	Batch Loss:0.46993087330947114	Test: (tensor([[-78.,  99.]], device='cuda:0'), +) => tensor([21.], device='cuda:0') == tensor([[20.1746]], device='cuda:0')Test Loss: 0.8253955841064453	
+Epoch: 44/100	Batch Loss:0.44408528818463794	Test: (tensor([[ -3., -17.]], device='cuda:0'), +) => tensor([-20.], device='cuda:0') == tensor([[-19.9194]], device='cuda:0')Test Loss: 0.08056640625	
+Epoch: 45/100	Batch Loss:0.39562782804880825	Test: (tensor([[-78., -42.]], device='cuda:0'), +) => tensor([-120.], device='cuda:0') == tensor([[-119.6821]], device='cuda:0')Test Loss: 0.31792449951171875	
+Epoch: 46/100	Batch Loss:0.695277794653892	Test: (tensor([[ 84., -99.]], device='cuda:0'), +) => tensor([-15.], device='cuda:0') == tensor([[-16.5726]], device='cuda:0')Test Loss: 1.5725669860839844	
+Epoch: 47/100	Batch Loss:0.36853417389246884	Test: (tensor([[ 28., -69.]], device='cuda:0'), +) => tensor([-41.], device='cuda:0') == tensor([[-41.4294]], device='cuda:0')Test Loss: 0.42940521240234375	
+Epoch: 48/100	Batch Loss:0.12280945839331847	Test: (tensor([[ 91., -46.]], device='cuda:0'), +) => tensor([45.], device='cuda:0') == tensor([[45.0248]], device='cuda:0')Test Loss: 0.024776458740234375	
+Epoch: 49/100	Batch Loss:0.032795861696026156	Test: (tensor([[ 49., -20.]], device='cuda:0'), +) => tensor([29.], device='cuda:0') == tensor([[29.0773]], device='cuda:0')Test Loss: 0.07734298706054688	
+Epoch: 50/100	Batch Loss:0.037598167755165876	Test: (tensor([[ 6., -6.]], device='cuda:0'), +) => tensor([0.], device='cuda:0') == tensor([[0.0115]], device='cuda:0')Test Loss: 0.011511056683957577	
+Epoch: 51/100	Batch Loss:0.05829265462804814	Test: (tensor([[-17.,  95.]], device='cuda:0'), +) => tensor([78.], device='cuda:0') == tensor([[77.9662]], device='cuda:0')Test Loss: 0.0338287353515625	
+Epoch: 52/100	Batch Loss:0.030816335915302744	Test: (tensor([[ 85., -58.]], device='cuda:0'), +) => tensor([27.], device='cuda:0') == tensor([[27.1070]], device='cuda:0')Test Loss: 0.107025146484375	
+Epoch: 53/100	Batch Loss:0.04838194770320338	Test: (tensor([[-23., -88.]], device='cuda:0'), +) => tensor([-111.], device='cuda:0') == tensor([[-110.9549]], device='cuda:0')Test Loss: 0.04509735107421875	
+Epoch: 54/100	Batch Loss:0.028358282269529845	Test: (tensor([[-51.,  89.]], device='cuda:0'), +) => tensor([38.], device='cuda:0') == tensor([[38.0903]], device='cuda:0')Test Loss: 0.09033966064453125	
+Epoch: 55/100	Batch Loss:0.03308482101063567	Test: (tensor([[ 39., -18.]], device='cuda:0'), +) => tensor([21.], device='cuda:0') == tensor([[20.9996]], device='cuda:0')Test Loss: 0.00035858154296875	
+Epoch: 56/100	Batch Loss:0.05366415853555105	Test: (tensor([[ 82., -29.]], device='cuda:0'), +) => tensor([53.], device='cuda:0') == tensor([[52.9984]], device='cuda:0')Test Loss: 0.0015869140625	
+Epoch: 57/100	Batch Loss:0.02308095636188376	Test: (tensor([[-27., -59.]], device='cuda:0'), +) => tensor([-86.], device='cuda:0') == tensor([[-86.0426]], device='cuda:0')Test Loss: 0.04262542724609375	
+Epoch: 58/100	Batch Loss:0.0355703275204085	Test: (tensor([[-23.,  58.]], device='cuda:0'), +) => tensor([35.], device='cuda:0') == tensor([[35.0456]], device='cuda:0')Test Loss: 0.04560089111328125	
+Epoch: 59/100	Batch Loss:0.04862329214621259	Test: (tensor([[56., 99.]], device='cuda:0'), +) => tensor([155.], device='cuda:0') == tensor([[155.0524]], device='cuda:0')Test Loss: 0.0523834228515625	
+Epoch: 60/100	Batch Loss:0.047387171249209464	Test: (tensor([[ 7., 14.]], device='cuda:0'), +) => tensor([21.], device='cuda:0') == tensor([[21.0126]], device='cuda:0')Test Loss: 0.01255035400390625	
+Epoch: 61/100	Batch Loss:0.038370791756148846	Test: (tensor([[ 11., -20.]], device='cuda:0'), +) => tensor([-9.], device='cuda:0') == tensor([[-8.9926]], device='cuda:0')Test Loss: 0.0073642730712890625	
+Epoch: 62/100	Batch Loss:0.041943915119413665	Test: (tensor([[ 82., -29.]], device='cuda:0'), +) => tensor([53.], device='cuda:0') == tensor([[53.0354]], device='cuda:0')Test Loss: 0.035434722900390625	
+Epoch: 63/100	Batch Loss:0.05319368436324353	Test: (tensor([[63., 60.]], device='cuda:0'), +) => tensor([123.], device='cuda:0') == tensor([[122.9865]], device='cuda:0')Test Loss: 0.0135498046875	
+Epoch: 64/100	Batch Loss:0.030168161713233103	Test: (tensor([[ 94., -67.]], device='cuda:0'), +) => tensor([27.], device='cuda:0') == tensor([[26.9594]], device='cuda:0')Test Loss: 0.040645599365234375	
+Epoch: 65/100	Batch Loss:0.023844552124204228	Test: (tensor([[ 7., 14.]], device='cuda:0'), +) => tensor([21.], device='cuda:0') == tensor([[20.9960]], device='cuda:0')Test Loss: 0.0039806365966796875	
+Epoch: 66/100	Batch Loss:0.03402338165086599	Test: (tensor([[-16.,  50.]], device='cuda:0'), +) => tensor([34.], device='cuda:0') == tensor([[34.0079]], device='cuda:0')Test Loss: 0.007930755615234375	
+Epoch: 67/100	Batch Loss:0.0064558752239871845	Test: (tensor([[ 70., -16.]], device='cuda:0'), +) => tensor([54.], device='cuda:0') == tensor([[53.9943]], device='cuda:0')Test Loss: 0.00572967529296875	
+Epoch: 68/100	Batch Loss:0.004433860980943605	Test: (tensor([[-10.,  84.]], device='cuda:0'), +) => tensor([74.], device='cuda:0') == tensor([[73.9990]], device='cuda:0')Test Loss: 0.00103759765625	
+Epoch: 69/100	Batch Loss:0.002979076818482266	Test: (tensor([[ 82., -29.]], device='cuda:0'), +) => tensor([53.], device='cuda:0') == tensor([[53.0000]], device='cuda:0')Test Loss: 3.814697265625e-05	
+Epoch: 70/100	Batch Loss:0.0018127721405293488	Test: (tensor([[-57.,  28.]], device='cuda:0'), +) => tensor([-29.], device='cuda:0') == tensor([[-28.9964]], device='cuda:0')Test Loss: 0.0035533905029296875	
+Epoch: 71/100	Batch Loss:0.0035101041394970094	Test: (tensor([[-44., -32.]], device='cuda:0'), +) => tensor([-76.], device='cuda:0') == tensor([[-75.9976]], device='cuda:0')Test Loss: 0.00243377685546875	
+Epoch: 72/100	Batch Loss:0.003714992035161324	Test: (tensor([[-81., -22.]], device='cuda:0'), +) => tensor([-103.], device='cuda:0') == tensor([[-102.9901]], device='cuda:0')Test Loss: 0.0099029541015625	
+Epoch: 73/100	Batch Loss:0.003358077006034401	Test: (tensor([[26., 19.]], device='cuda:0'), +) => tensor([45.], device='cuda:0') == tensor([[45.0000]], device='cuda:0')Test Loss: 3.814697265625e-05	
+Epoch: 74/100	Batch Loss:0.004663924314794416	Test: (tensor([[-76., -59.]], device='cuda:0'), +) => tensor([-135.], device='cuda:0') == tensor([[-134.9984]], device='cuda:0')Test Loss: 0.0015716552734375	
+Epoch: 75/100	Batch Loss:0.002752084712668949	Test: (tensor([[-29., -89.]], device='cuda:0'), +) => tensor([-118.], device='cuda:0') == tensor([[-118.0053]], device='cuda:0')Test Loss: 0.00531768798828125	
+Epoch: 76/100	Batch Loss:0.004934378872905877	Test: (tensor([[ 10., -20.]], device='cuda:0'), +) => tensor([-10.], device='cuda:0') == tensor([[-9.9993]], device='cuda:0')Test Loss: 0.000705718994140625	
+Epoch: 77/100	Batch Loss:0.0037718418729016366	Test: (tensor([[ 85., -58.]], device='cuda:0'), +) => tensor([27.], device='cuda:0') == tensor([[27.0054]], device='cuda:0')Test Loss: 0.005352020263671875	
+Epoch: 78/100	Batch Loss:0.0027252204873009908	Test: (tensor([[75.,  0.]], device='cuda:0'), +) => tensor([75.], device='cuda:0') == tensor([[74.9962]], device='cuda:0')Test Loss: 0.00384521484375	
+Epoch: 79/100	Batch Loss:0.0022317788804814753	Test: (tensor([[-87.,  57.]], device='cuda:0'), +) => tensor([-30.], device='cuda:0') == tensor([[-30.0050]], device='cuda:0')Test Loss: 0.0049896240234375	
+Epoch: 80/100	Batch Loss:0.0035139558847508945	Test: (tensor([[-58.,  71.]], device='cuda:0'), +) => tensor([13.], device='cuda:0') == tensor([[12.9971]], device='cuda:0')Test Loss: 0.0028963088989257812	
+Epoch: 81/100	Batch Loss:0.0006640056853196869	Test: (tensor([[ -4., -11.]], device='cuda:0'), +) => tensor([-15.], device='cuda:0') == tensor([[-15.0000]], device='cuda:0')Test Loss: 1.621246337890625e-05	
+Epoch: 82/100	Batch Loss:0.0004949868652685688	Test: (tensor([[33., 20.]], device='cuda:0'), +) => tensor([53.], device='cuda:0') == tensor([[52.9998]], device='cuda:0')Test Loss: 0.000202178955078125	
+Epoch: 83/100	Batch Loss:0.0006598682270197635	Test: (tensor([[ 93., -89.]], device='cuda:0'), +) => tensor([4.], device='cuda:0') == tensor([[3.9972]], device='cuda:0')Test Loss: 0.002797842025756836	
+Epoch: 84/100	Batch Loss:0.0004590806138181432	Test: (tensor([[63., 79.]], device='cuda:0'), +) => tensor([142.], device='cuda:0') == tensor([[142.0005]], device='cuda:0')Test Loss: 0.000457763671875	
+Epoch: 85/100	Batch Loss:0.0003237962477474606	Test: (tensor([[-16.,  48.]], device='cuda:0'), +) => tensor([32.], device='cuda:0') == tensor([[32.0002]], device='cuda:0')Test Loss: 0.000225067138671875	
+Epoch: 86/100	Batch Loss:0.0003168152738258608	Test: (tensor([[ 78., -57.]], device='cuda:0'), +) => tensor([21.], device='cuda:0') == tensor([[21.0006]], device='cuda:0')Test Loss: 0.0006256103515625	
+Epoch: 87/100	Batch Loss:0.00034003646326208564	Test: (tensor([[56., 99.]], device='cuda:0'), +) => tensor([155.], device='cuda:0') == tensor([[154.9996]], device='cuda:0')Test Loss: 0.0003814697265625	
+Epoch: 88/100	Batch Loss:0.0004554889274746826	Test: (tensor([[ 11., -20.]], device='cuda:0'), +) => tensor([-9.], device='cuda:0') == tensor([[-9.0000]], device='cuda:0')Test Loss: 4.1961669921875e-05	
+Epoch: 89/100	Batch Loss:0.00035339963825227103	Test: (tensor([[-29., -89.]], device='cuda:0'), +) => tensor([-118.], device='cuda:0') == tensor([[-117.9998]], device='cuda:0')Test Loss: 0.00019073486328125	
+Epoch: 90/100	Batch Loss:0.00041054499977653163	Test: (tensor([[ 82., -29.]], device='cuda:0'), +) => tensor([53.], device='cuda:0') == tensor([[52.9994]], device='cuda:0')Test Loss: 0.000583648681640625	
+Epoch: 91/100	Batch Loss:0.00039623880737202187	Test: (tensor([[71., 57.]], device='cuda:0'), +) => tensor([128.], device='cuda:0') == tensor([[128.0003]], device='cuda:0')Test Loss: 0.000274658203125	
+Epoch: 92/100	Batch Loss:0.0005810310689486535	Test: (tensor([[56., 99.]], device='cuda:0'), +) => tensor([155.], device='cuda:0') == tensor([[155.0001]], device='cuda:0')Test Loss: 0.0001373291015625	
+Epoch: 93/100	Batch Loss:7.018786739220614e-05	Test: (tensor([[-78.,  99.]], device='cuda:0'), +) => tensor([21.], device='cuda:0') == tensor([[20.9999]], device='cuda:0')Test Loss: 0.000118255615234375	
+Epoch: 94/100	Batch Loss:4.8912005936750686e-05	Test: (tensor([[-99., -82.]], device='cuda:0'), +) => tensor([-181.], device='cuda:0') == tensor([[-180.9999]], device='cuda:0')Test Loss: 0.0001373291015625	
+Epoch: 95/100	Batch Loss:3.9384986252469166e-05	Test: (tensor([[63., 60.]], device='cuda:0'), +) => tensor([123.], device='cuda:0') == tensor([[123.0000]], device='cuda:0')Test Loss: 4.57763671875e-05	
+Epoch: 96/100	Batch Loss:1.614867314670772e-05	Test: (tensor([[ 95., -15.]], device='cuda:0'), +) => tensor([80.], device='cuda:0') == tensor([[80.0000]], device='cuda:0')Test Loss: 3.814697265625e-05	
+Epoch: 97/100	Batch Loss:3.292606872807427e-05	Test: (tensor([[-76., -59.]], device='cuda:0'), +) => tensor([-135.], device='cuda:0') == tensor([[-135.0000]], device='cuda:0')Test Loss: 3.0517578125e-05	
+Epoch: 98/100	Batch Loss:4.674264369450797e-05	Test: (tensor([[-60.,  69.]], device='cuda:0'), +) => tensor([9.], device='cuda:0') == tensor([[9.0000]], device='cuda:0')Test Loss: 9.5367431640625e-07	
+Epoch: 99/100	Batch Loss:3.9521839946886834e-05	Test: (tensor([[-54., -65.]], device='cuda:0'), +) => tensor([-119.], device='cuda:0') == tensor([[-119.0000]], device='cuda:0')Test Loss: 7.62939453125e-06	
++: (WI:tensor([1.0000, 1.0000], device='cuda:0', grad_fn=<SelectBackward>) + b:-6.035181741026463e-06)
+
+Epoch: 0/100	Batch Loss:12.662611708349111	Test: (tensor([[  14., -100.]], device='cuda:0'), -) => tensor([114.], device='cuda:0') == tensor([[114.0178]], device='cuda:0')Test Loss: 0.01782989501953125	
+Epoch: 1/100	Batch Loss:3.845758284841265	Test: (tensor([[-16.,  29.]], device='cuda:0'), -) => tensor([-45.], device='cuda:0') == tensor([[-45.5420]], device='cuda:0')Test Loss: 0.5420036315917969	
+Epoch: 2/100	Batch Loss:3.71267200976002	Test: (tensor([[-42., -62.]], device='cuda:0'), -) => tensor([20.], device='cuda:0') == tensor([[16.7815]], device='cuda:0')Test Loss: 3.2184505462646484	
+Epoch: 3/100	Batch Loss:3.9742708571103154	Test: (tensor([[-91.,  60.]], device='cuda:0'), -) => tensor([-151.], device='cuda:0') == tensor([[-145.4809]], device='cuda:0')Test Loss: 5.5191497802734375	
+Epoch: 4/100	Batch Loss:4.626301640758709	Test: (tensor([[91., 35.]], device='cuda:0'), -) => tensor([56.], device='cuda:0') == tensor([[63.9416]], device='cuda:0')Test Loss: 7.941600799560547	
+Epoch: 5/100	Batch Loss:4.030893651806578	Test: (tensor([[-11.,  -8.]], device='cuda:0'), -) => tensor([-3.], device='cuda:0') == tensor([[-3.0227]], device='cuda:0')Test Loss: 0.022683143615722656	
+Epoch: 6/100	Batch Loss:4.108314010561729	Test: (tensor([[-71.,  23.]], device='cuda:0'), -) => tensor([-94.], device='cuda:0') == tensor([[-91.0968]], device='cuda:0')Test Loss: 2.9032440185546875	
+Epoch: 7/100	Batch Loss:2.8763210919438578	Test: (tensor([[ 13., -22.]], device='cuda:0'), -) => tensor([35.], device='cuda:0') == tensor([[33.9361]], device='cuda:0')Test Loss: 1.0639266967773438	
+Epoch: 8/100	Batch Loss:4.075371964245426	Test: (tensor([[34., -4.]], device='cuda:0'), -) => tensor([38.], device='cuda:0') == tensor([[37.2190]], device='cuda:0')Test Loss: 0.7809906005859375	
+Epoch: 9/100	Batch Loss:3.276010974329345	Test: (tensor([[-60., -88.]], device='cuda:0'), -) => tensor([28.], device='cuda:0') == tensor([[18.7507]], device='cuda:0')Test Loss: 9.249324798583984	
+Epoch: 10/100	Batch Loss:6.694501353769886	Test: (tensor([[65., 88.]], device='cuda:0'), -) => tensor([-23.], device='cuda:0') == tensor([[-24.8661]], device='cuda:0')Test Loss: 1.8661270141601562	
+Epoch: 11/100	Batch Loss:3.9765433316328087	Test: (tensor([[-15.,  64.]], device='cuda:0'), -) => tensor([-79.], device='cuda:0') == tensor([[-72.6037]], device='cuda:0')Test Loss: 6.3963165283203125	
+Epoch: 12/100	Batch Loss:3.0481904611295585	Test: (tensor([[64., 87.]], device='cuda:0'), -) => tensor([-23.], device='cuda:0') == tensor([[-24.3248]], device='cuda:0')Test Loss: 1.3247966766357422	
+Epoch: 13/100	Batch Loss:1.0494651295700852	Test: (tensor([[ 82., -24.]], device='cuda:0'), -) => tensor([106.], device='cuda:0') == tensor([[104.9610]], device='cuda:0')Test Loss: 1.0390243530273438	
+Epoch: 14/100	Batch Loss:0.5214387366966325	Test: (tensor([[-63., -54.]], device='cuda:0'), -) => tensor([-9.], device='cuda:0') == tensor([[-9.2610]], device='cuda:0')Test Loss: 0.2610139846801758	
+Epoch: 15/100	Batch Loss:0.3278361473764692	Test: (tensor([[-69.,  78.]], device='cuda:0'), -) => tensor([-147.], device='cuda:0') == tensor([[-147.7792]], device='cuda:0')Test Loss: 0.7792205810546875	
+Epoch: 16/100	Batch Loss:0.3692795263261211	Test: (tensor([[-87.,  54.]], device='cuda:0'), -) => tensor([-141.], device='cuda:0') == tensor([[-139.5128]], device='cuda:0')Test Loss: 1.4872283935546875	
+Epoch: 17/100	Batch Loss:0.41126229142656134	Test: (tensor([[ 23., -40.]], device='cuda:0'), -) => tensor([63.], device='cuda:0') == tensor([[63.0574]], device='cuda:0')Test Loss: 0.05735015869140625	
+Epoch: 18/100	Batch Loss:0.43457464204759017	Test: (tensor([[-82.,   9.]], device='cuda:0'), -) => tensor([-91.], device='cuda:0') == tensor([[-90.5445]], device='cuda:0')Test Loss: 0.45551300048828125	
+Epoch: 19/100	Batch Loss:0.39744519639988335	Test: (tensor([[ 22., -88.]], device='cuda:0'), -) => tensor([110.], device='cuda:0') == tensor([[110.6796]], device='cuda:0')Test Loss: 0.6795806884765625	
+Epoch: 20/100	Batch Loss:0.3201766508080217	Test: (tensor([[-87.,  54.]], device='cuda:0'), -) => tensor([-141.], device='cuda:0') == tensor([[-140.6786]], device='cuda:0')Test Loss: 0.3213958740234375	
+Epoch: 21/100	Batch Loss:0.3476872650944457	Test: (tensor([[ -5., -40.]], device='cuda:0'), -) => tensor([35.], device='cuda:0') == tensor([[34.8998]], device='cuda:0')Test Loss: 0.10020065307617188	
+Epoch: 22/100	Batch Loss:0.3581895118921387	Test: (tensor([[-60., -88.]], device='cuda:0'), -) => tensor([28.], device='cuda:0') == tensor([[26.8411]], device='cuda:0')Test Loss: 1.158945083618164	
+Epoch: 23/100	Batch Loss:0.1469385211869162	Test: (tensor([[ 25., -77.]], device='cuda:0'), -) => tensor([102.], device='cuda:0') == tensor([[101.9183]], device='cuda:0')Test Loss: 0.08165740966796875	
+Epoch: 24/100	Batch Loss:0.030271905284298926	Test: (tensor([[ 69., -70.]], device='cuda:0'), -) => tensor([139.], device='cuda:0') == tensor([[138.9511]], device='cuda:0')Test Loss: 0.0489044189453125	
+Epoch: 25/100	Batch Loss:0.05205125241939511	Test: (tensor([[ 84., -63.]], device='cuda:0'), -) => tensor([147.], device='cuda:0') == tensor([[146.9931]], device='cuda:0')Test Loss: 0.0069427490234375	
+Epoch: 26/100	Batch Loss:0.04065025229083032	Test: (tensor([[-43., -11.]], device='cuda:0'), -) => tensor([-32.], device='cuda:0') == tensor([[-31.9563]], device='cuda:0')Test Loss: 0.04374122619628906	
+Epoch: 27/100	Batch Loss:0.04228374719315646	Test: (tensor([[-62., -97.]], device='cuda:0'), -) => tensor([35.], device='cuda:0') == tensor([[35.0211]], device='cuda:0')Test Loss: 0.021144866943359375	
+Epoch: 28/100	Batch Loss:0.029409215264069866	Test: (tensor([[-11.,  13.]], device='cuda:0'), -) => tensor([-24.], device='cuda:0') == tensor([[-23.9902]], device='cuda:0')Test Loss: 0.00977325439453125	
+Epoch: 29/100	Batch Loss:0.04424848103401612	Test: (tensor([[54., -1.]], device='cuda:0'), -) => tensor([55.], device='cuda:0') == tensor([[55.0124]], device='cuda:0')Test Loss: 0.012363433837890625	
+Epoch: 30/100	Batch Loss:0.029196445587832406	Test: (tensor([[64., 87.]], device='cuda:0'), -) => tensor([-23.], device='cuda:0') == tensor([[-22.9782]], device='cuda:0')Test Loss: 0.021846771240234375	
+Epoch: 31/100	Batch Loss:0.033948948644861886	Test: (tensor([[-2., 47.]], device='cuda:0'), -) => tensor([-49.], device='cuda:0') == tensor([[-48.9926]], device='cuda:0')Test Loss: 0.007373809814453125	
+Epoch: 32/100	Batch Loss:0.04733575993616666	Test: (tensor([[-79.,  76.]], device='cuda:0'), -) => tensor([-155.], device='cuda:0') == tensor([[-155.0011]], device='cuda:0')Test Loss: 0.0011444091796875	
+Epoch: 33/100	Batch Loss:0.05894708485171503	Test: (tensor([[83., 12.]], device='cuda:0'), -) => tensor([71.], device='cuda:0') == tensor([[71.0053]], device='cuda:0')Test Loss: 0.0052642822265625	
+Epoch: 34/100	Batch Loss:0.04949577274608749	Test: (tensor([[ 64., -98.]], device='cuda:0'), -) => tensor([162.], device='cuda:0') == tensor([[161.9810]], device='cuda:0')Test Loss: 0.0189666748046875	
+Epoch: 35/100	Batch Loss:0.03708008680093501	Test: (tensor([[-69.,  78.]], device='cuda:0'), -) => tensor([-147.], device='cuda:0') == tensor([[-146.8705]], device='cuda:0')Test Loss: 0.129547119140625	
+Epoch: 36/100	Batch Loss:0.03867848994856586	Test: (tensor([[64., 87.]], device='cuda:0'), -) => tensor([-23.], device='cuda:0') == tensor([[-22.8812]], device='cuda:0')Test Loss: 0.11883544921875	
+Epoch: 37/100	Batch Loss:0.03717089242929099	Test: (tensor([[-91.,  60.]], device='cuda:0'), -) => tensor([-151.], device='cuda:0') == tensor([[-150.9444]], device='cuda:0')Test Loss: 0.055633544921875	
+Epoch: 38/100	Batch Loss:0.040753772672341794	Test: (tensor([[-55., -69.]], device='cuda:0'), -) => tensor([14.], device='cuda:0') == tensor([[13.9630]], device='cuda:0')Test Loss: 0.037017822265625	
+Epoch: 39/100	Batch Loss:0.049506502111955564	Test: (tensor([[-56.,  19.]], device='cuda:0'), -) => tensor([-75.], device='cuda:0') == tensor([[-74.9732]], device='cuda:0')Test Loss: 0.0268402099609375	
+Epoch: 40/100	Batch Loss:0.046438080118493916	Test: (tensor([[-44., -55.]], device='cuda:0'), -) => tensor([11.], device='cuda:0') == tensor([[10.9771]], device='cuda:0')Test Loss: 0.02289581298828125	
+Epoch: 41/100	Batch Loss:0.045929546078324925	Test: (tensor([[-43., -11.]], device='cuda:0'), -) => tensor([-32.], device='cuda:0') == tensor([[-32.0444]], device='cuda:0')Test Loss: 0.04444122314453125	
+Epoch: 42/100	Batch Loss:0.026639763493927156	Test: (tensor([[-87.,  54.]], device='cuda:0'), -) => tensor([-141.], device='cuda:0') == tensor([[-141.0788]], device='cuda:0')Test Loss: 0.07879638671875	
+Epoch: 43/100	Batch Loss:0.04089967678396069	Test: (tensor([[22.,  2.]], device='cuda:0'), -) => tensor([20.], device='cuda:0') == tensor([[19.9783]], device='cuda:0')Test Loss: 0.021718978881835938	
+Epoch: 44/100	Batch Loss:0.02022107977334562	Test: (tensor([[ 65., -87.]], device='cuda:0'), -) => tensor([152.], device='cuda:0') == tensor([[151.9876]], device='cuda:0')Test Loss: 0.0124053955078125	
+Epoch: 45/100	Batch Loss:0.004847931566919029	Test: (tensor([[ 47., -84.]], device='cuda:0'), -) => tensor([131.], device='cuda:0') == tensor([[130.9878]], device='cuda:0')Test Loss: 0.012176513671875	
+Epoch: 46/100	Batch Loss:0.003180203070788055	Test: (tensor([[-74., -29.]], device='cuda:0'), -) => tensor([-45.], device='cuda:0') == tensor([[-44.9990]], device='cuda:0')Test Loss: 0.00096893310546875	
+Epoch: 47/100	Batch Loss:0.0036003076737480505	Test: (tensor([[75., -9.]], device='cuda:0'), -) => tensor([84.], device='cuda:0') == tensor([[83.9944]], device='cuda:0')Test Loss: 0.00555419921875	
+Epoch: 48/100	Batch Loss:0.005160331174883307	Test: (tensor([[-39., -61.]], device='cuda:0'), -) => tensor([22.], device='cuda:0') == tensor([[21.9988]], device='cuda:0')Test Loss: 0.00115203857421875	
+Epoch: 49/100	Batch Loss:0.0045387612332646946	Test: (tensor([[-51.,  78.]], device='cuda:0'), -) => tensor([-129.], device='cuda:0') == tensor([[-129.0017]], device='cuda:0')Test Loss: 0.001678466796875	
+Epoch: 50/100	Batch Loss:0.002779886593367448	Test: (tensor([[ 81., -87.]], device='cuda:0'), -) => tensor([168.], device='cuda:0') == tensor([[168.0016]], device='cuda:0')Test Loss: 0.0015716552734375	
+Epoch: 51/100	Batch Loss:0.002597999290981311	Test: (tensor([[ -5., -40.]], device='cuda:0'), -) => tensor([35.], device='cuda:0') == tensor([[35.0019]], device='cuda:0')Test Loss: 0.001873016357421875	
+Epoch: 52/100	Batch Loss:0.0026204709203590695	Test: (tensor([[  88., -100.]], device='cuda:0'), -) => tensor([188.], device='cuda:0') == tensor([[187.9951]], device='cuda:0')Test Loss: 0.0048980712890625	
+Epoch: 53/100	Batch Loss:0.0058925383277617545	Test: (tensor([[64., 85.]], device='cuda:0'), -) => tensor([-21.], device='cuda:0') == tensor([[-20.9997]], device='cuda:0')Test Loss: 0.000335693359375	
+Epoch: 54/100	Batch Loss:0.004415580620917929	Test: (tensor([[-15.,  64.]], device='cuda:0'), -) => tensor([-79.], device='cuda:0') == tensor([[-79.0010]], device='cuda:0')Test Loss: 0.001007080078125	
+Epoch: 55/100	Batch Loss:0.003568796408885368	Test: (tensor([[ 47., -84.]], device='cuda:0'), -) => tensor([131.], device='cuda:0') == tensor([[130.9953]], device='cuda:0')Test Loss: 0.00469970703125	
+Epoch: 56/100	Batch Loss:0.0032121146796271205	Test: (tensor([[ 30., -63.]], device='cuda:0'), -) => tensor([93.], device='cuda:0') == tensor([[92.9968]], device='cuda:0')Test Loss: 0.0032196044921875	
+Epoch: 57/100	Batch Loss:0.00282423571286704	Test: (tensor([[-63., -54.]], device='cuda:0'), -) => tensor([-9.], device='cuda:0') == tensor([[-8.9999]], device='cuda:0')Test Loss: 5.91278076171875e-05	
+Epoch: 58/100	Batch Loss:0.0026493593456451687	Test: (tensor([[ 88., -34.]], device='cuda:0'), -) => tensor([122.], device='cuda:0') == tensor([[121.9992]], device='cuda:0')Test Loss: 0.00075531005859375	
+Epoch: 59/100	Batch Loss:0.003761044864979934	Test: (tensor([[57., 48.]], device='cuda:0'), -) => tensor([9.], device='cuda:0') == tensor([[8.9954]], device='cuda:0')Test Loss: 0.004565238952636719	
+Epoch: 60/100	Batch Loss:0.003843766039627015	Test: (tensor([[44., 48.]], device='cuda:0'), -) => tensor([-4.], device='cuda:0') == tensor([[-3.9949]], device='cuda:0')Test Loss: 0.005146980285644531	
+Epoch: 61/100	Batch Loss:0.0035723594197889373	Test: (tensor([[-51.,  78.]], device='cuda:0'), -) => tensor([-129.], device='cuda:0') == tensor([[-129.0029]], device='cuda:0')Test Loss: 0.0029449462890625	
+Epoch: 62/100	Batch Loss:0.002364992019150178	Test: (tensor([[ 88., -34.]], device='cuda:0'), -) => tensor([122.], device='cuda:0') == tensor([[122.0067]], device='cuda:0')Test Loss: 0.0066986083984375	
+Epoch: 63/100	Batch Loss:0.004460295682478392	Test: (tensor([[54., -1.]], device='cuda:0'), -) => tensor([55.], device='cuda:0') == tensor([[54.9996]], device='cuda:0')Test Loss: 0.0003814697265625	
+Epoch: 64/100	Batch Loss:0.0026370047880289126	Test: (tensor([[93., 88.]], device='cuda:0'), -) => tensor([5.], device='cuda:0') == tensor([[4.9964]], device='cuda:0')Test Loss: 0.003551006317138672	
+Epoch: 65/100	Batch Loss:0.003345992008689791	Test: (tensor([[26., -7.]], device='cuda:0'), -) => tensor([33.], device='cuda:0') == tensor([[33.0014]], device='cuda:0')Test Loss: 0.001354217529296875	
+Epoch: 66/100	Batch Loss:0.006522801419606014	Test: (tensor([[ 45., -28.]], device='cuda:0'), -) => tensor([73.], device='cuda:0') == tensor([[73.0000]], device='cuda:0')Test Loss: 3.0517578125e-05	
+Epoch: 67/100	Batch Loss:0.0029747317805268554	Test: (tensor([[75., 97.]], device='cuda:0'), -) => tensor([-22.], device='cuda:0') == tensor([[-21.9926]], device='cuda:0')Test Loss: 0.007381439208984375	
+Epoch: 68/100	Batch Loss:0.003716576991754831	Test: (tensor([[64., 87.]], device='cuda:0'), -) => tensor([-23.], device='cuda:0') == tensor([[-23.0005]], device='cuda:0')Test Loss: 0.0005397796630859375	
+Epoch: 69/100	Batch Loss:0.0036220145673129937	Test: (tensor([[  14., -100.]], device='cuda:0'), -) => tensor([114.], device='cuda:0') == tensor([[113.9993]], device='cuda:0')Test Loss: 0.000701904296875	
+Epoch: 70/100	Batch Loss:0.002854483828426111	Test: (tensor([[-15.,  64.]], device='cuda:0'), -) => tensor([-79.], device='cuda:0') == tensor([[-79.0036]], device='cuda:0')Test Loss: 0.00360107421875	
+Epoch: 71/100	Batch Loss:0.003267085220966469	Test: (tensor([[38., 80.]], device='cuda:0'), -) => tensor([-42.], device='cuda:0') == tensor([[-42.0025]], device='cuda:0')Test Loss: 0.002452850341796875	
+Epoch: 72/100	Batch Loss:0.0023299425707331727	Test: (tensor([[-98.,   9.]], device='cuda:0'), -) => tensor([-107.], device='cuda:0') == tensor([[-106.9997]], device='cuda:0')Test Loss: 0.0003204345703125	
+Epoch: 73/100	Batch Loss:0.0047164891029194906	Test: (tensor([[-82.,  83.]], device='cuda:0'), -) => tensor([-165.], device='cuda:0') == tensor([[-164.9970]], device='cuda:0')Test Loss: 0.002960205078125	
+Epoch: 74/100	Batch Loss:0.003589612666436718	Test: (tensor([[44., 48.]], device='cuda:0'), -) => tensor([-4.], device='cuda:0') == tensor([[-4.0004]], device='cuda:0')Test Loss: 0.000362396240234375	
+Epoch: 75/100	Batch Loss:0.003127823026057295	Test: (tensor([[-82.,  83.]], device='cuda:0'), -) => tensor([-165.], device='cuda:0') == tensor([[-164.9908]], device='cuda:0')Test Loss: 0.0091552734375	
+Epoch: 76/100	Batch Loss:0.003860994040186764	Test: (tensor([[-82.,   9.]], device='cuda:0'), -) => tensor([-91.], device='cuda:0') == tensor([[-91.0058]], device='cuda:0')Test Loss: 0.00582122802734375	
+Epoch: 77/100	Batch Loss:0.004365934648227935	Test: (tensor([[ 28., -19.]], device='cuda:0'), -) => tensor([47.], device='cuda:0') == tensor([[46.9995]], device='cuda:0')Test Loss: 0.000530242919921875	
+Epoch: 78/100	Batch Loss:0.00037126056968747655	Test: (tensor([[-71.,  23.]], device='cuda:0'), -) => tensor([-94.], device='cuda:0') == tensor([[-93.9999]], device='cuda:0')Test Loss: 7.62939453125e-05	
+Epoch: 79/100	Batch Loss:0.0004539027972246653	Test: (tensor([[ 11., -27.]], device='cuda:0'), -) => tensor([38.], device='cuda:0') == tensor([[37.9998]], device='cuda:0')Test Loss: 0.000171661376953125	
+Epoch: 80/100	Batch Loss:0.0004644564071394579	Test: (tensor([[34., -4.]], device='cuda:0'), -) => tensor([38.], device='cuda:0') == tensor([[38.0002]], device='cuda:0')Test Loss: 0.000202178955078125	
+Epoch: 81/100	Batch Loss:0.0003796357368071545	Test: (tensor([[61., 47.]], device='cuda:0'), -) => tensor([14.], device='cuda:0') == tensor([[13.9998]], device='cuda:0')Test Loss: 0.00020313262939453125	
+Epoch: 82/100	Batch Loss:0.0007481401520709945	Test: (tensor([[93., 81.]], device='cuda:0'), -) => tensor([12.], device='cuda:0') == tensor([[12.0007]], device='cuda:0')Test Loss: 0.0007238388061523438	
+Epoch: 83/100	Batch Loss:0.000339473319158691	Test: (tensor([[-11.,  -8.]], device='cuda:0'), -) => tensor([-3.], device='cuda:0') == tensor([[-3.0001]], device='cuda:0')Test Loss: 0.00014400482177734375	
+Epoch: 84/100	Batch Loss:0.0003345113886729339	Test: (tensor([[70., 42.]], device='cuda:0'), -) => tensor([28.], device='cuda:0') == tensor([[27.9996]], device='cuda:0')Test Loss: 0.0004177093505859375	
+Epoch: 85/100	Batch Loss:0.0004128849458148969	Test: (tensor([[-94.,   1.]], device='cuda:0'), -) => tensor([-95.], device='cuda:0') == tensor([[-94.9999]], device='cuda:0')Test Loss: 0.00014495849609375	
+Epoch: 86/100	Batch Loss:0.0004095479736712818	Test: (tensor([[91., 35.]], device='cuda:0'), -) => tensor([56.], device='cuda:0') == tensor([[55.9998]], device='cuda:0')Test Loss: 0.000232696533203125	
+Epoch: 87/100	Batch Loss:0.00028450752699650273	Test: (tensor([[ 65., -87.]], device='cuda:0'), -) => tensor([152.], device='cuda:0') == tensor([[152.0003]], device='cuda:0')Test Loss: 0.0002899169921875	
+Epoch: 88/100	Batch Loss:0.0006835059279442898	Test: (tensor([[70., 42.]], device='cuda:0'), -) => tensor([28.], device='cuda:0') == tensor([[28.0005]], device='cuda:0')Test Loss: 0.0005130767822265625	
+Epoch: 89/100	Batch Loss:0.00010057977955771744	Test: (tensor([[ 37., -77.]], device='cuda:0'), -) => tensor([114.], device='cuda:0') == tensor([[114.0000]], device='cuda:0')Test Loss: 1.52587890625e-05	
+Epoch: 90/100	Batch Loss:6.138148277461034e-05	Test: (tensor([[ 96., -81.]], device='cuda:0'), -) => tensor([177.], device='cuda:0') == tensor([[177.0001]], device='cuda:0')Test Loss: 7.62939453125e-05	
+Epoch: 91/100	Batch Loss:3.1313062747209856e-05	Test: (tensor([[-81., -42.]], device='cuda:0'), -) => tensor([-39.], device='cuda:0') == tensor([[-39.0000]], device='cuda:0')Test Loss: 4.9591064453125e-05	
+Epoch: 92/100	Batch Loss:3.511748826319806e-05	Test: (tensor([[-71.,  23.]], device='cuda:0'), -) => tensor([-94.], device='cuda:0') == tensor([[-93.9999]], device='cuda:0')Test Loss: 6.866455078125e-05	
+Epoch: 93/100	Batch Loss:4.897970894508406e-05	Test: (tensor([[-68., -22.]], device='cuda:0'), -) => tensor([-46.], device='cuda:0') == tensor([[-46.0000]], device='cuda:0')Test Loss: 4.57763671875e-05	
+Epoch: 94/100	Batch Loss:3.0870364442456107e-05	Test: (tensor([[ 28., -19.]], device='cuda:0'), -) => tensor([47.], device='cuda:0') == tensor([[47.0000]], device='cuda:0')Test Loss: 3.814697265625e-06	
+Epoch: 95/100	Batch Loss:3.257734388913674e-05	Test: (tensor([[ -5., -40.]], device='cuda:0'), -) => tensor([35.], device='cuda:0') == tensor([[35.0000]], device='cuda:0')Test Loss: 7.62939453125e-06	
+Epoch: 96/100	Batch Loss:3.345784002054383e-05	Test: (tensor([[22.,  2.]], device='cuda:0'), -) => tensor([20.], device='cuda:0') == tensor([[20.]], device='cuda:0')Test Loss: 0.0	
+Epoch: 97/100	Batch Loss:2.6837916804503707e-05	Test: (tensor([[-57., -86.]], device='cuda:0'), -) => tensor([29.], device='cuda:0') == tensor([[29.0000]], device='cuda:0')Test Loss: 3.4332275390625e-05	
+Epoch: 98/100	Batch Loss:5.323396878654365e-05	Test: (tensor([[ 52., -28.]], device='cuda:0'), -) => tensor([80.], device='cuda:0') == tensor([[79.9999]], device='cuda:0')Test Loss: 0.00011444091796875	
+Epoch: 99/100	Batch Loss:6.653803768353917e-05	Test: (tensor([[ 52., -28.]], device='cuda:0'), -) => tensor([80.], device='cuda:0') == tensor([[80.0000]], device='cuda:0')Test Loss: 7.62939453125e-06	
+-: (WI:tensor([ 1.0000, -1.0000], device='cuda:0', grad_fn=<SelectBackward>) + b:-7.195711532403948e-06)
+
+Epoch: 0/100	Batch Loss:2348.7162559470353	Test: (tensor([[-48., -38.]], device='cuda:0'), *) => tensor([1824.], device='cuda:0') == tensor([[-115.1949]], device='cuda:0')Test Loss: 1939.1949462890625	
+Epoch: 1/100	Batch Loss:2352.6202384209146	Test: (tensor([[  2., -36.]], device='cuda:0'), *) => tensor([-72.], device='cuda:0') == tensor([[-33.2200]], device='cuda:0')Test Loss: 38.78004455566406	
+Epoch: 2/100	Batch Loss:2281.72909933207	Test: (tensor([[-73.,  85.]], device='cuda:0'), *) => tensor([-6205.], device='cuda:0') == tensor([[-132.4494]], device='cuda:0')Test Loss: 6072.55078125	
+Epoch: 3/100	Batch Loss:2277.5299019326967	Test: (tensor([[83., 76.]], device='cuda:0'), *) => tensor([6308.], device='cuda:0') == tensor([[543.8369]], device='cuda:0')Test Loss: 5764.1630859375	
+Epoch: 4/100	Batch Loss:2318.2199726104736	Test: (tensor([[ 85., -13.]], device='cuda:0'), *) => tensor([-1105.], device='cuda:0') == tensor([[422.4558]], device='cuda:0')Test Loss: 1527.455810546875	
+Epoch: 5/100	Batch Loss:2323.026863682027	Test: (tensor([[17., 64.]], device='cuda:0'), *) => tensor([1088.], device='cuda:0') == tensor([[273.2283]], device='cuda:0')Test Loss: 814.771728515625	
+Epoch: 6/100	Batch Loss:2319.2534355241423	Test: (tensor([[-46., -15.]], device='cuda:0'), *) => tensor([690.], device='cuda:0') == tensor([[-329.9016]], device='cuda:0')Test Loss: 1019.901611328125	
+Epoch: 7/100	Batch Loss:2267.381134344607	Test: (tensor([[-73.,  85.]], device='cuda:0'), *) => tensor([-6205.], device='cuda:0') == tensor([[-163.8334]], device='cuda:0')Test Loss: 6041.16650390625	
+Epoch: 8/100	Batch Loss:2318.128853973077	Test: (tensor([[17., 85.]], device='cuda:0'), *) => tensor([1445.], device='cuda:0') == tensor([[355.7787]], device='cuda:0')Test Loss: 1089.22119140625	
+Epoch: 9/100	Batch Loss:2240.292585956807	Test: (tensor([[-96.,  95.]], device='cuda:0'), *) => tensor([-9120.], device='cuda:0') == tensor([[-261.9248]], device='cuda:0')Test Loss: 8858.0751953125	
+Epoch: 10/100	Batch Loss:2286.9839799063548	Test: (tensor([[-62., -55.]], device='cuda:0'), *) => tensor([3410.], device='cuda:0') == tensor([[-610.7022]], device='cuda:0')Test Loss: 4020.7021484375	
+Epoch: 11/100	Batch Loss:2328.451825200295	Test: (tensor([[  3., -21.]], device='cuda:0'), *) => tensor([-63.], device='cuda:0') == tensor([[-60.4670]], device='cuda:0')Test Loss: 2.532989501953125	
+Epoch: 12/100	Batch Loss:2300.5972464814477	Test: (tensor([[99., 35.]], device='cuda:0'), *) => tensor([3465.], device='cuda:0') == tensor([[765.6428]], device='cuda:0')Test Loss: 2699.357177734375	
+Epoch: 13/100	Batch Loss:2330.5995183672226	Test: (tensor([[  3., -21.]], device='cuda:0'), *) => tensor([-63.], device='cuda:0') == tensor([[-65.6500]], device='cuda:0')Test Loss: 2.6499557495117188	
+Epoch: 14/100	Batch Loss:2324.2298761484576	Test: (tensor([[44., -6.]], device='cuda:0'), *) => tensor([-264.], device='cuda:0') == tensor([[265.0193]], device='cuda:0')Test Loss: 529.0193481445312	
+Epoch: 15/100	Batch Loss:2325.326296825798	Test: (tensor([[54.,  4.]], device='cuda:0'), *) => tensor([216.], device='cuda:0') == tensor([[383.5131]], device='cuda:0')Test Loss: 167.51312255859375	
+Epoch: 16/100	Batch Loss:2310.689232884621	Test: (tensor([[-35., -40.]], device='cuda:0'), *) => tensor([1400.], device='cuda:0') == tensor([[-403.4177]], device='cuda:0')Test Loss: 1803.417724609375	
+Epoch: 17/100	Batch Loss:2259.8487251826696	Test: (tensor([[-94., -62.]], device='cuda:0'), *) => tensor([5828.], device='cuda:0') == tensor([[-931.2032]], device='cuda:0')Test Loss: 6759.203125	
+Epoch: 18/100	Batch Loss:2319.2202429090225	Test: (tensor([[17., 64.]], device='cuda:0'), *) => tensor([1088.], device='cuda:0') == tensor([[348.4962]], device='cuda:0')Test Loss: 739.5037841796875	
+Epoch: 19/100	Batch Loss:2304.0567320220325	Test: (tensor([[-48., -38.]], device='cuda:0'), *) => tensor([1824.], device='cuda:0') == tensor([[-519.1359]], device='cuda:0')Test Loss: 2343.1357421875	
+Epoch: 20/100	Batch Loss:2266.803849122962	Test: (tensor([[-73.,  85.]], device='cuda:0'), *) => tensor([-6205.], device='cuda:0') == tensor([[-212.2487]], device='cuda:0')Test Loss: 5992.75146484375	
+Epoch: 21/100	Batch Loss:2324.0321858464454	Test: (tensor([[-23.,  20.]], device='cuda:0'), *) => tensor([-460.], device='cuda:0') == tensor([[-85.3241]], device='cuda:0')Test Loss: 374.6759033203125	
+Epoch: 22/100	Batch Loss:2315.688476328947	Test: (tensor([[-46., -15.]], device='cuda:0'), *) => tensor([690.], device='cuda:0') == tensor([[-400.7366]], device='cuda:0')Test Loss: 1090.736572265625	
+Epoch: 23/100	Batch Loss:2312.8827489736127	Test: (tensor([[-46., -15.]], device='cuda:0'), *) => tensor([690.], device='cuda:0') == tensor([[-400.9488]], device='cuda:0')Test Loss: 1090.9488525390625	
+Epoch: 24/100	Batch Loss:2323.126455423783	Test: (tensor([[68.,  6.]], device='cuda:0'), *) => tensor([408.], device='cuda:0') == tensor([[494.3214]], device='cuda:0')Test Loss: 86.3214111328125	
+Epoch: 25/100	Batch Loss:2304.768873876455	Test: (tensor([[ 58., -28.]], device='cuda:0'), *) => tensor([-1624.], device='cuda:0') == tensor([[283.0983]], device='cuda:0')Test Loss: 1907.0982666015625	
+Epoch: 26/100	Batch Loss:2320.234850591543	Test: (tensor([[-67.,  12.]], device='cuda:0'), *) => tensor([-804.], device='cuda:0') == tensor([[-439.1769]], device='cuda:0')Test Loss: 364.82305908203125	
+Epoch: 27/100	Batch Loss:2313.2100470406667	Test: (tensor([[-46., -15.]], device='cuda:0'), *) => tensor([690.], device='cuda:0') == tensor([[-403.7340]], device='cuda:0')Test Loss: 1093.7340087890625	
+Epoch: 28/100	Batch Loss:2313.8819028114785	Test: (tensor([[17., 85.]], device='cuda:0'), *) => tensor([1445.], device='cuda:0') == tensor([[463.9777]], device='cuda:0')Test Loss: 981.0222778320312	
+Epoch: 29/100	Batch Loss:2323.022176781479	Test: (tensor([[-52.,   5.]], device='cuda:0'), *) => tensor([-260.], device='cuda:0') == tensor([[-361.8448]], device='cuda:0')Test Loss: 101.84478759765625	
+Epoch: 30/100	Batch Loss:2296.598348812181	Test: (tensor([[36., 92.]], device='cuda:0'), *) => tensor([3312.], device='cuda:0') == tensor([[625.4645]], device='cuda:0')Test Loss: 2686.53564453125	
+Epoch: 31/100	Batch Loss:2314.685886227355	Test: (tensor([[-22., -28.]], device='cuda:0'), *) => tensor([616.], device='cuda:0') == tensor([[-286.0753]], device='cuda:0')Test Loss: 902.0752563476562	
+Epoch: 32/100	Batch Loss:2299.9835405933613	Test: (tensor([[81., 38.]], device='cuda:0'), *) => tensor([3078.], device='cuda:0') == tensor([[719.8893]], device='cuda:0')Test Loss: 2358.11083984375	
+Epoch: 33/100	Batch Loss:2323.2794960177675	Test: (tensor([[-15.,  10.]], device='cuda:0'), *) => tensor([-150.], device='cuda:0') == tensor([[-77.4759]], device='cuda:0')Test Loss: 72.52412414550781	
+Epoch: 34/100	Batch Loss:2315.0237247700593	Test: (tensor([[91., 17.]], device='cuda:0'), *) => tensor([1547.], device='cuda:0') == tensor([[702.9727]], device='cuda:0')Test Loss: 844.02734375	
+Epoch: 35/100	Batch Loss:2319.8900842472	Test: (tensor([[-23.,  20.]], device='cuda:0'), *) => tensor([-460.], device='cuda:0') == tensor([[-92.3647]], device='cuda:0')Test Loss: 367.6352844238281	
+Epoch: 36/100	Batch Loss:2322.8618645959973	Test: (tensor([[  2., -36.]], device='cuda:0'), *) => tensor([-72.], device='cuda:0') == tensor([[-149.2776]], device='cuda:0')Test Loss: 77.27755737304688	
+Epoch: 37/100	Batch Loss:2294.9846407053424	Test: (tensor([[ 97., -23.]], device='cuda:0'), *) => tensor([-2231.], device='cuda:0') == tensor([[578.7755]], device='cuda:0')Test Loss: 2809.775390625	
+Epoch: 38/100	Batch Loss:2274.035582639733	Test: (tensor([[93., 62.]], device='cuda:0'), *) => tensor([5766.], device='cuda:0') == tensor([[905.3959]], device='cuda:0')Test Loss: 4860.60400390625	
+Epoch: 39/100	Batch Loss:2260.9476829061705	Test: (tensor([[-68.,  92.]], device='cuda:0'), *) => tensor([-6256.], device='cuda:0') == tensor([[-110.8895]], device='cuda:0')Test Loss: 6145.1103515625	
+Epoch: 40/100	Batch Loss:2301.657040187291	Test: (tensor([[46., 59.]], device='cuda:0'), *) => tensor([2714.], device='cuda:0') == tensor([[559.7086]], device='cuda:0')Test Loss: 2154.29150390625	
+Epoch: 41/100	Batch Loss:2254.596371631233	Test: (tensor([[-94., -62.]], device='cuda:0'), *) => tensor([5828.], device='cuda:0') == tensor([[-938.4240]], device='cuda:0')Test Loss: 6766.423828125	
+Epoch: 42/100	Batch Loss:2315.9611460627343	Test: (tensor([[23., 48.]], device='cuda:0'), *) => tensor([1104.], device='cuda:0') == tensor([[350.4073]], device='cuda:0')Test Loss: 753.5927734375	
+Epoch: 43/100	Batch Loss:2280.494758061	Test: (tensor([[ 72., -55.]], device='cuda:0'), *) => tensor([-3960.], device='cuda:0') == tensor([[267.3329]], device='cuda:0')Test Loss: 4227.3330078125	
+Epoch: 44/100	Batch Loss:2295.352755098927	Test: (tensor([[-40., -56.]], device='cuda:0'), *) => tensor([2240.], device='cuda:0') == tensor([[-530.9062]], device='cuda:0')Test Loss: 2770.90625	
+Epoch: 45/100	Batch Loss:2304.9383086379694	Test: (tensor([[-35., -40.]], device='cuda:0'), *) => tensor([1400.], device='cuda:0') == tensor([[-428.5093]], device='cuda:0')Test Loss: 1828.50927734375	
+Epoch: 46/100	Batch Loss:2322.1227027737364	Test: (tensor([[-48.,   4.]], device='cuda:0'), *) => tensor([-192.], device='cuda:0') == tensor([[-336.5764]], device='cuda:0')Test Loss: 144.57644653320312	
+Epoch: 47/100	Batch Loss:2323.345975369823	Test: (tensor([[ 3., 14.]], device='cuda:0'), *) => tensor([42.], device='cuda:0') == tensor([[66.8214]], device='cuda:0')Test Loss: 24.821426391601562	
+Epoch: 48/100	Batch Loss:2233.5565271182936	Test: (tensor([[-96.,  95.]], device='cuda:0'), *) => tensor([-9120.], device='cuda:0') == tensor([[-296.1004]], device='cuda:0')Test Loss: 8823.8994140625	
+Epoch: 49/100	Batch Loss:2322.56903652269	Test: (tensor([[-52.,   5.]], device='cuda:0'), *) => tensor([-260.], device='cuda:0') == tensor([[-360.7472]], device='cuda:0')Test Loss: 100.74716186523438	
+Epoch: 50/100	Batch Loss:2321.339186610008	Test: (tensor([[ -4., -22.]], device='cuda:0'), *) => tensor([88.], device='cuda:0') == tensor([[-133.4326]], device='cuda:0')Test Loss: 221.4326171875	
+Epoch: 51/100	Batch Loss:2281.8353909862285	Test: (tensor([[-62., -55.]], device='cuda:0'), *) => tensor([3410.], device='cuda:0') == tensor([[-682.7090]], device='cuda:0')Test Loss: 4092.708984375	
+Epoch: 52/100	Batch Loss:2255.196037681735	Test: (tensor([[-61., -96.]], device='cuda:0'), *) => tensor([5856.], device='cuda:0') == tensor([[-847.2291]], device='cuda:0')Test Loss: 6703.22900390625	
+Epoch: 53/100	Batch Loss:2317.4098446904395	Test: (tensor([[-52.,  -4.]], device='cuda:0'), *) => tensor([208.], device='cuda:0') == tensor([[-398.4113]], device='cuda:0')Test Loss: 606.4113159179688	
+Epoch: 54/100	Batch Loss:2304.937315648916	Test: (tensor([[-35., -40.]], device='cuda:0'), *) => tensor([1400.], device='cuda:0') == tensor([[-428.5581]], device='cuda:0')Test Loss: 1828.55810546875	
+Epoch: 55/100	Batch Loss:2300.639501143475	Test: (tensor([[-82.,  33.]], device='cuda:0'), *) => tensor([-2706.], device='cuda:0') == tensor([[-456.2472]], device='cuda:0')Test Loss: 2249.752685546875	
+Epoch: 56/100	Batch Loss:2321.3344169928105	Test: (tensor([[ 0., 56.]], device='cuda:0'), *) => tensor([0.], device='cuda:0') == tensor([[221.3294]], device='cuda:0')Test Loss: 221.3294219970703	
+Epoch: 57/100	Batch Loss:2320.2647391338737	Test: (tensor([[65.,  2.]], device='cuda:0'), *) => tensor([130.], device='cuda:0') == tensor([[456.1513]], device='cuda:0')Test Loss: 326.1513366699219	
+Epoch: 58/100	Batch Loss:2312.6520569470463	Test: (tensor([[-79.,  -6.]], device='cuda:0'), *) => tensor([474.], device='cuda:0') == tensor([[-598.1953]], device='cuda:0')Test Loss: 1072.1953125	
+Epoch: 59/100	Batch Loss:2299.752575854866	Test: (tensor([[-48., -38.]], device='cuda:0'), *) => tensor([1824.], device='cuda:0') == tensor([[-512.3431]], device='cuda:0')Test Loss: 2336.34326171875	
+Epoch: 60/100	Batch Loss:2292.959842136928	Test: (tensor([[ 65., -42.]], device='cuda:0'), *) => tensor([-2730.], device='cuda:0') == tensor([[272.0167]], device='cuda:0')Test Loss: 3002.0166015625	
+Epoch: 61/100	Batch Loss:2321.334362419284	Test: (tensor([[ 0., 56.]], device='cuda:0'), *) => tensor([0.], device='cuda:0') == tensor([[221.3305]], device='cuda:0')Test Loss: 221.33050537109375	
+Epoch: 62/100	Batch Loss:2283.54034174705	Test: (tensor([[59., 79.]], device='cuda:0'), *) => tensor([4661.], device='cuda:0') == tensor([[735.8569]], device='cuda:0')Test Loss: 3925.14306640625	
+Epoch: 63/100	Batch Loss:2309.756704135817	Test: (tensor([[-43., -22.]], device='cuda:0'), *) => tensor([946.], device='cuda:0') == tensor([[-409.9361]], device='cuda:0')Test Loss: 1355.93603515625	
+Epoch: 64/100	Batch Loss:2283.540635790144	Test: (tensor([[59., 79.]], device='cuda:0'), *) => tensor([4661.], device='cuda:0') == tensor([[735.8513]], device='cuda:0')Test Loss: 3925.148681640625	
+Epoch: 65/100	Batch Loss:2308.8777436236946	Test: (tensor([[ 46., -27.]], device='cuda:0'), *) => tensor([-1242.], device='cuda:0') == tensor([[200.0923]], device='cuda:0')Test Loss: 1442.09228515625	
+Epoch: 66/100	Batch Loss:2289.1404362892617	Test: (tensor([[-57.,  62.]], device='cuda:0'), *) => tensor([-3534.], device='cuda:0') == tensor([[-157.6528]], device='cuda:0')Test Loss: 3376.34716796875	
+Epoch: 67/100	Batch Loss:2308.027679910465	Test: (tensor([[-48.,  36.]], device='cuda:0'), *) => tensor([-1728.], device='cuda:0') == tensor([[-202.6573]], device='cuda:0')Test Loss: 1525.3426513671875	
+Epoch: 68/100	Batch Loss:2252.1801795959473	Test: (tensor([[ 80., -85.]], device='cuda:0'), *) => tensor([-6800.], device='cuda:0') == tensor([[198.4030]], device='cuda:0')Test Loss: 6998.40283203125	
+Epoch: 69/100	Batch Loss:2313.20988588917	Test: (tensor([[-11.,  73.]], device='cuda:0'), *) => tensor([-803.], device='cuda:0') == tensor([[214.4916]], device='cuda:0')Test Loss: 1017.4915771484375	
+Epoch: 70/100	Batch Loss:2285.857874734061	Test: (tensor([[-76.,  53.]], device='cuda:0'), *) => tensor([-4028.], device='cuda:0') == tensor([[-330.0152]], device='cuda:0')Test Loss: 3697.98486328125	
+Epoch: 71/100	Batch Loss:2290.997483856824	Test: (tensor([[-34., -77.]], device='cuda:0'), *) => tensor([2618.], device='cuda:0') == tensor([[-576.3041]], device='cuda:0')Test Loss: 3194.30419921875	
+Epoch: 72/100	Batch Loss:2296.196562397237	Test: (tensor([[36., 92.]], device='cuda:0'), *) => tensor([3312.], device='cuda:0') == tensor([[627.2051]], device='cuda:0')Test Loss: 2684.794921875	
+Epoch: 73/100	Batch Loss:2262.0600748646016	Test: (tensor([[-73.,  85.]], device='cuda:0'), *) => tensor([-6205.], device='cuda:0') == tensor([[-174.8290]], device='cuda:0')Test Loss: 6030.1708984375	
+Epoch: 74/100	Batch Loss:2281.82979646021	Test: (tensor([[-62., -55.]], device='cuda:0'), *) => tensor([3410.], device='cuda:0') == tensor([[-682.7379]], device='cuda:0')Test Loss: 4092.73779296875	
+Epoch: 75/100	Batch Loss:2296.7586887126067	Test: (tensor([[99., 35.]], device='cuda:0'), *) => tensor([3465.], device='cuda:0') == tensor([[835.2933]], device='cuda:0')Test Loss: 2629.70654296875	
+Epoch: 76/100	Batch Loss:2321.8522428395795	Test: (tensor([[54.,  4.]], device='cuda:0'), *) => tensor([216.], device='cuda:0') == tensor([[386.5389]], device='cuda:0')Test Loss: 170.53887939453125	
+Epoch: 77/100	Batch Loss:2313.02593620456	Test: (tensor([[-22.,  46.]], device='cuda:0'), *) => tensor([-1012.], device='cuda:0') == tensor([[23.5155]], device='cuda:0')Test Loss: 1035.5155029296875	
+Epoch: 78/100	Batch Loss:2299.752149465133	Test: (tensor([[-48., -38.]], device='cuda:0'), *) => tensor([1824.], device='cuda:0') == tensor([[-512.3425]], device='cuda:0')Test Loss: 2336.342529296875	
+Epoch: 79/100	Batch Loss:2317.404503180056	Test: (tensor([[-52.,  -4.]], device='cuda:0'), *) => tensor([208.], device='cuda:0') == tensor([[-398.4119]], device='cuda:0')Test Loss: 606.411865234375	
+Epoch: 80/100	Batch Loss:2306.526106386769	Test: (tensor([[-23.,  68.]], device='cuda:0'), *) => tensor([-1564.], device='cuda:0') == tensor([[108.4948]], device='cuda:0')Test Loss: 1672.4947509765625	
+Epoch: 81/100	Batch Loss:2260.878985502282	Test: (tensor([[-68.,  92.]], device='cuda:0'), *) => tensor([-6256.], device='cuda:0') == tensor([[-110.0873]], device='cuda:0')Test Loss: 6145.91259765625	
+Epoch: 82/100	Batch Loss:2319.5549221428073	Test: (tensor([[-73.,  12.]], device='cuda:0'), *) => tensor([-876.], device='cuda:0') == tensor([[-480.3292]], device='cuda:0')Test Loss: 395.6708068847656	
+Epoch: 83/100	Batch Loss:2319.8555741602063	Test: (tensor([[-67.,  12.]], device='cuda:0'), *) => tensor([-804.], device='cuda:0') == tensor([[-437.7931]], device='cuda:0')Test Loss: 366.2069091796875	
+Epoch: 84/100	Batch Loss:2309.75629113645	Test: (tensor([[-43., -22.]], device='cuda:0'), *) => tensor([946.], device='cuda:0') == tensor([[-409.9367]], device='cuda:0')Test Loss: 1355.9366455078125	
+Epoch: 85/100	Batch Loss:2318.8270922291035	Test: (tensor([[ 13., -44.]], device='cuda:0'), *) => tensor([-572.], device='cuda:0') == tensor([[-105.0019]], device='cuda:0')Test Loss: 466.9981384277344	
+Epoch: 86/100	Batch Loss:2320.052800859724	Test: (tensor([[ 0., 86.]], device='cuda:0'), *) => tensor([0.], device='cuda:0') == tensor([[346.8787]], device='cuda:0')Test Loss: 346.8786926269531	
+Epoch: 87/100	Batch Loss:2304.8891459873744	Test: (tensor([[42., 56.]], device='cuda:0'), *) => tensor([2352.], device='cuda:0') == tensor([[519.0831]], device='cuda:0')Test Loss: 1832.9168701171875	
+Epoch: 88/100	Batch Loss:2318.505411109146	Test: (tensor([[ 26., -15.]], device='cuda:0'), *) => tensor([-390.], device='cuda:0') == tensor([[108.5229]], device='cuda:0')Test Loss: 498.52288818359375	
+Epoch: 89/100	Batch Loss:2318.8270922291035	Test: (tensor([[ 13., -44.]], device='cuda:0'), *) => tensor([-572.], device='cuda:0') == tensor([[-105.0019]], device='cuda:0')Test Loss: 466.9981384277344	
+Epoch: 90/100	Batch Loss:2320.2643035577266	Test: (tensor([[65.,  2.]], device='cuda:0'), *) => tensor([130.], device='cuda:0') == tensor([[456.1514]], device='cuda:0')Test Loss: 326.15142822265625	
+Epoch: 91/100	Batch Loss:2304.9336979145905	Test: (tensor([[-35., -40.]], device='cuda:0'), *) => tensor([1400.], device='cuda:0') == tensor([[-428.5508]], device='cuda:0')Test Loss: 1828.55078125	
+Epoch: 92/100	Batch Loss:2304.0418920711595	Test: (tensor([[76., 34.]], device='cuda:0'), *) => tensor([2584.], device='cuda:0') == tensor([[668.0522]], device='cuda:0')Test Loss: 1915.94775390625	
+Epoch: 93/100	Batch Loss:2314.386562580965	Test: (tensor([[-22., -28.]], device='cuda:0'), *) => tensor([616.], device='cuda:0') == tensor([[-286.1700]], device='cuda:0')Test Loss: 902.1700439453125	
+Epoch: 94/100	Batch Loss:2321.333904655612	Test: (tensor([[ 0., 56.]], device='cuda:0'), *) => tensor([0.], device='cuda:0') == tensor([[221.3305]], device='cuda:0')Test Loss: 221.3305206298828	
+Epoch: 95/100	Batch Loss:2318.3251630822006	Test: (tensor([[-11., -28.]], device='cuda:0'), *) => tensor([308.], device='cuda:0') == tensor([[-208.1872]], device='cuda:0')Test Loss: 516.1871948242188	
+Epoch: 96/100	Batch Loss:2283.5398866303112	Test: (tensor([[59., 79.]], device='cuda:0'), *) => tensor([4661.], device='cuda:0') == tensor([[735.8557]], device='cuda:0')Test Loss: 3925.144287109375	
+Epoch: 97/100	Batch Loss:2295.3173125909298	Test: (tensor([[-40., -56.]], device='cuda:0'), *) => tensor([2240.], device='cuda:0') == tensor([[-530.9565]], device='cuda:0')Test Loss: 2770.95654296875	
+Epoch: 98/100	Batch Loss:2285.3941770281112	Test: (tensor([[-68., -45.]], device='cuda:0'), *) => tensor([3060.], device='cuda:0') == tensor([[-683.4240]], device='cuda:0')Test Loss: 3743.423828125	
+Epoch: 99/100	Batch Loss:2312.4504389860194	Test: (tensor([[-46., -15.]], device='cuda:0'), *) => tensor([690.], device='cuda:0') == tensor([[-401.9101]], device='cuda:0')Test Loss: 1091.91015625	
+*: (WI:tensor([7.0893, 4.1849], device='cuda:0', grad_fn=<SelectBackward>) + b:-13.0260648727417)
+
+Epoch: 0/100	Batch Loss:inf	Test: (tensor([[-33.,  72.]], device='cuda:0'), /) => tensor([-0.], device='cuda:0') == tensor([[-5.5349]], device='cuda:0')Test Loss: 5.534919738769531	
+Epoch: 1/100	Batch Loss:4.464695574373615	Test: (tensor([[-59.,   0.]], device='cuda:0'), /) => tensor([-inf], device='cuda:0') == tensor([[0.7112]], device='cuda:0')Test Loss: inf	
+Epoch: 2/100	Batch Loss:inf	Test: (tensor([[ 62., -83.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[21.0506]], device='cuda:0')Test Loss: 22.050559997558594	
+Epoch: 3/100	Batch Loss:inf	Test: (tensor([[96., 82.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[0.5303]], device='cuda:0')Test Loss: 0.46968311071395874	
+Epoch: 4/100	Batch Loss:inf	Test: (tensor([[-34.,  24.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[4.0674]], device='cuda:0')Test Loss: 5.067361354827881	
+Epoch: 5/100	Batch Loss:inf	Test: (tensor([[ 88., -41.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[-13.7366]], device='cuda:0')Test Loss: 11.736612319946289	
+Epoch: 6/100	Batch Loss:inf	Test: (tensor([[-12.,  87.]], device='cuda:0'), /) => tensor([-0.], device='cuda:0') == tensor([[-10.4846]], device='cuda:0')Test Loss: 10.484569549560547	
+Epoch: 7/100	Batch Loss:inf	Test: (tensor([[28., 52.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-7.5342]], device='cuda:0')Test Loss: 8.534183502197266	
+Epoch: 8/100	Batch Loss:inf	Test: (tensor([[-32., -28.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-4.5260]], device='cuda:0')Test Loss: 5.526026725769043	
+Epoch: 9/100	Batch Loss:inf	Test: (tensor([[76., 98.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-8.9046]], device='cuda:0')Test Loss: 9.904589653015137	
+Epoch: 10/100	Batch Loss:inf	Test: (tensor([[-46.,  23.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[-0.9166]], device='cuda:0')Test Loss: 1.0834234952926636	
+Epoch: 11/100	Batch Loss:inf	Test: (tensor([[-44., -18.]], device='cuda:0'), /) => tensor([2.], device='cuda:0') == tensor([[-0.1186]], device='cuda:0')Test Loss: 2.118612289428711	
+Epoch: 12/100	Batch Loss:inf	Test: (tensor([[53., 61.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-3.3038]], device='cuda:0')Test Loss: 4.303766250610352	
+Epoch: 13/100	Batch Loss:inf	Test: (tensor([[22., 54.]], device='cuda:0'), /) => tensor([0.], device='cuda:0') == tensor([[2.6696]], device='cuda:0')Test Loss: 2.6695778369903564	
+Epoch: 14/100	Batch Loss:inf	Test: (tensor([[76., 98.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[9.3332]], device='cuda:0')Test Loss: 8.333159446716309	
+Epoch: 15/100	Batch Loss:inf	Test: (tensor([[ 44., -57.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[-0.3480]], device='cuda:0')Test Loss: 0.6520065069198608	
+Epoch: 16/100	Batch Loss:inf	Test: (tensor([[-81.,  15.]], device='cuda:0'), /) => tensor([-5.], device='cuda:0') == tensor([[1.3339]], device='cuda:0')Test Loss: 6.333913803100586	
+Epoch: 17/100	Batch Loss:inf	Test: (tensor([[28., 52.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-0.1634]], device='cuda:0')Test Loss: 1.1634329557418823	
+Epoch: 18/100	Batch Loss:inf	Test: (tensor([[-80., -67.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-1.1031]], device='cuda:0')Test Loss: 2.1031441688537598	
+Epoch: 19/100	Batch Loss:inf	Test: (tensor([[61., 47.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[1.4664]], device='cuda:0')Test Loss: 0.4664156436920166	
+Epoch: 20/100	Batch Loss:inf	Test: (tensor([[ 2., 36.]], device='cuda:0'), /) => tensor([0.], device='cuda:0') == tensor([[-0.4684]], device='cuda:0')Test Loss: 0.4684479832649231	
+Epoch: 21/100	Batch Loss:inf	Test: (tensor([[96., 82.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-0.9641]], device='cuda:0')Test Loss: 1.9640733003616333	
+Epoch: 22/100	Batch Loss:inf	Test: (tensor([[72., 41.]], device='cuda:0'), /) => tensor([2.], device='cuda:0') == tensor([[-2.0198]], device='cuda:0')Test Loss: 4.019818305969238	
+Epoch: 23/100	Batch Loss:inf	Test: (tensor([[-12.,  87.]], device='cuda:0'), /) => tensor([-0.], device='cuda:0') == tensor([[0.0334]], device='cuda:0')Test Loss: 0.03342694044113159	
+Epoch: 24/100	Batch Loss:inf	Test: (tensor([[-76.,  72.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[-1.0293]], device='cuda:0')Test Loss: 0.02931845188140869	
+Epoch: 25/100	Batch Loss:inf	Test: (tensor([[-91.,  31.]], device='cuda:0'), /) => tensor([-3.], device='cuda:0') == tensor([[-0.0508]], device='cuda:0')Test Loss: 2.9492087364196777	
+Epoch: 26/100	Batch Loss:inf	Test: (tensor([[-27., -40.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-0.4721]], device='cuda:0')Test Loss: 1.4720854759216309	
+Epoch: 27/100	Batch Loss:inf	Test: (tensor([[ 89., -32.]], device='cuda:0'), /) => tensor([-3.], device='cuda:0') == tensor([[1.3383]], device='cuda:0')Test Loss: 4.338251113891602	
+Epoch: 28/100	Batch Loss:inf	Test: (tensor([[-40.,  11.]], device='cuda:0'), /) => tensor([-4.], device='cuda:0') == tensor([[-0.0824]], device='cuda:0')Test Loss: 3.917557954788208	
+Epoch: 29/100	Batch Loss:inf	Test: (tensor([[-18., -64.]], device='cuda:0'), /) => tensor([0.], device='cuda:0') == tensor([[1.4594]], device='cuda:0')Test Loss: 1.4594197273254395	
+Epoch: 30/100	Batch Loss:inf	Test: (tensor([[-46.,  23.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[0.5062]], device='cuda:0')Test Loss: 2.506206750869751	
+Epoch: 31/100	Batch Loss:inf	Test: (tensor([[-67., -28.]], device='cuda:0'), /) => tensor([2.], device='cuda:0') == tensor([[0.8019]], device='cuda:0')Test Loss: 1.198129653930664	
+Epoch: 32/100	Batch Loss:inf	Test: (tensor([[-49., -85.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-1.6096]], device='cuda:0')Test Loss: 2.6095738410949707	
+Epoch: 33/100	Batch Loss:inf	Test: (tensor([[-64., -79.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-1.3208]], device='cuda:0')Test Loss: 2.320768356323242	
+Epoch: 34/100	Batch Loss:inf	Test: (tensor([[-52.,  32.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[-1.1507]], device='cuda:0')Test Loss: 0.8492684364318848	
+Epoch: 35/100	Batch Loss:inf	Test: (tensor([[76., 98.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-2.5601]], device='cuda:0')Test Loss: 3.5600593090057373	
+Epoch: 36/100	Batch Loss:inf	Test: (tensor([[ 88., -41.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[-0.5652]], device='cuda:0')Test Loss: 1.434770107269287	
+Epoch: 37/100	Batch Loss:inf	Test: (tensor([[-38.,  68.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[-0.7416]], device='cuda:0')Test Loss: 0.25838541984558105	
+Epoch: 38/100	Batch Loss:inf	Test: (tensor([[72., 88.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-0.1736]], device='cuda:0')Test Loss: 1.1736171245574951	
+Epoch: 39/100	Batch Loss:inf	Test: (tensor([[25., -5.]], device='cuda:0'), /) => tensor([-5.], device='cuda:0') == tensor([[-0.2159]], device='cuda:0')Test Loss: 4.784081935882568	
+Epoch: 40/100	Batch Loss:inf	Test: (tensor([[-25., -42.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-0.2731]], device='cuda:0')Test Loss: 1.2731270790100098	
+Epoch: 41/100	Batch Loss:inf	Test: (tensor([[ 88., -41.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[0.3033]], device='cuda:0')Test Loss: 2.303277015686035	
+Epoch: 42/100	Batch Loss:inf	Test: (tensor([[-99.,  53.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[-1.2039]], device='cuda:0')Test Loss: 0.7961112260818481	
+Epoch: 43/100	Batch Loss:inf	Test: (tensor([[-89.,  34.]], device='cuda:0'), /) => tensor([-3.], device='cuda:0') == tensor([[-0.7175]], device='cuda:0')Test Loss: 2.282477855682373	
+Epoch: 44/100	Batch Loss:inf	Test: (tensor([[ 2., 36.]], device='cuda:0'), /) => tensor([0.], device='cuda:0') == tensor([[-0.4685]], device='cuda:0')Test Loss: 0.46850210428237915	
+Epoch: 45/100	Batch Loss:inf	Test: (tensor([[-19.,  21.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[-0.5283]], device='cuda:0')Test Loss: 0.4717021584510803	
+Epoch: 46/100	Batch Loss:inf	Test: (tensor([[81., 11.]], device='cuda:0'), /) => tensor([7.], device='cuda:0') == tensor([[0.3537]], device='cuda:0')Test Loss: 6.646347999572754	
+Epoch: 47/100	Batch Loss:inf	Test: (tensor([[83., 35.]], device='cuda:0'), /) => tensor([2.], device='cuda:0') == tensor([[0.3450]], device='cuda:0')Test Loss: 1.654973030090332	
+Epoch: 48/100	Batch Loss:inf	Test: (tensor([[-22.,  38.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[-0.5361]], device='cuda:0')Test Loss: 0.46391820907592773	
+Epoch: 49/100	Batch Loss:inf	Test: (tensor([[-22.,  38.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[-0.5259]], device='cuda:0')Test Loss: 0.4740864038467407	
+Epoch: 50/100	Batch Loss:inf	Test: (tensor([[-21., -70.]], device='cuda:0'), /) => tensor([0.], device='cuda:0') == tensor([[-0.2982]], device='cuda:0')Test Loss: 0.29823461174964905	
+Epoch: 51/100	Batch Loss:inf	Test: (tensor([[-33.,  28.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[-0.5953]], device='cuda:0')Test Loss: 0.4046914577484131	
+Epoch: 52/100	Batch Loss:inf	Test: (tensor([[22., 54.]], device='cuda:0'), /) => tensor([0.], device='cuda:0') == tensor([[-0.1922]], device='cuda:0')Test Loss: 0.19215655326843262	
+Epoch: 53/100	Batch Loss:inf	Test: (tensor([[72., 41.]], device='cuda:0'), /) => tensor([2.], device='cuda:0') == tensor([[0.1978]], device='cuda:0')Test Loss: 1.8022072315216064	
+Epoch: 54/100	Batch Loss:inf	Test: (tensor([[-74.,  94.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[-1.0626]], device='cuda:0')Test Loss: 0.0626380443572998	
+Epoch: 55/100	Batch Loss:inf	Test: (tensor([[-80., -67.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-0.7503]], device='cuda:0')Test Loss: 1.7502868175506592	
+Epoch: 56/100	Batch Loss:inf	Test: (tensor([[-9.,  6.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[-0.3371]], device='cuda:0')Test Loss: 1.6629364490509033	
+Epoch: 57/100	Batch Loss:inf	Test: (tensor([[-67.,  12.]], device='cuda:0'), /) => tensor([-6.], device='cuda:0') == tensor([[-0.8154]], device='cuda:0')Test Loss: 5.184588432312012	
+Epoch: 58/100	Batch Loss:inf	Test: (tensor([[-77., -22.]], device='cuda:0'), /) => tensor([4.], device='cuda:0') == tensor([[-0.8161]], device='cuda:0')Test Loss: 4.816136360168457	
+Epoch: 59/100	Batch Loss:inf	Test: (tensor([[-82.,  22.]], device='cuda:0'), /) => tensor([-4.], device='cuda:0') == tensor([[-0.9535]], device='cuda:0')Test Loss: 3.0465264320373535	
+Epoch: 60/100	Batch Loss:inf	Test: (tensor([[-34.,  24.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[-0.5742]], device='cuda:0')Test Loss: 0.4257701635360718	
+Epoch: 61/100	Batch Loss:inf	Test: (tensor([[ 44., -57.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[0.2270]], device='cuda:0')Test Loss: 1.2269903421401978	
+Epoch: 62/100	Batch Loss:inf	Test: (tensor([[ 73., -10.]], device='cuda:0'), /) => tensor([-7.], device='cuda:0') == tensor([[0.3526]], device='cuda:0')Test Loss: 7.352638244628906	
+Epoch: 63/100	Batch Loss:inf	Test: (tensor([[-80., -67.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-0.7337]], device='cuda:0')Test Loss: 1.7337472438812256	
+Epoch: 64/100	Batch Loss:inf	Test: (tensor([[-9.,  6.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[-0.3339]], device='cuda:0')Test Loss: 1.6660690307617188	
+Epoch: 65/100	Batch Loss:inf	Test: (tensor([[-40.,  11.]], device='cuda:0'), /) => tensor([-4.], device='cuda:0') == tensor([[-0.5889]], device='cuda:0')Test Loss: 3.411102294921875	
+Epoch: 66/100	Batch Loss:inf	Test: (tensor([[ 42., -78.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[0.2556]], device='cuda:0')Test Loss: 1.2555514574050903	
+Epoch: 67/100	Batch Loss:inf	Test: (tensor([[25., -5.]], device='cuda:0'), /) => tensor([-5.], device='cuda:0') == tensor([[-0.0400]], device='cuda:0')Test Loss: 4.959999084472656	
+Epoch: 68/100	Batch Loss:inf	Test: (tensor([[ -3., -77.]], device='cuda:0'), /) => tensor([0.], device='cuda:0') == tensor([[-0.1024]], device='cuda:0')Test Loss: 0.10238049924373627	
+Epoch: 69/100	Batch Loss:inf	Test: (tensor([[-27., -40.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-0.3743]], device='cuda:0')Test Loss: 1.3742876052856445	
+Epoch: 70/100	Batch Loss:inf	Test: (tensor([[-95.,  40.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[-1.0890]], device='cuda:0')Test Loss: 0.9110454320907593	
+Epoch: 71/100	Batch Loss:inf	Test: (tensor([[-62., -32.]], device='cuda:0'), /) => tensor([2.], device='cuda:0') == tensor([[-0.6694]], device='cuda:0')Test Loss: 2.6693994998931885	
+Epoch: 72/100	Batch Loss:inf	Test: (tensor([[-73.,  45.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[-0.9248]], device='cuda:0')Test Loss: 1.0751988887786865	
+Epoch: 73/100	Batch Loss:inf	Test: (tensor([[81., 11.]], device='cuda:0'), /) => tensor([7.], device='cuda:0') == tensor([[0.3691]], device='cuda:0')Test Loss: 6.630869388580322	
+Epoch: 74/100	Batch Loss:inf	Test: (tensor([[  9., -48.]], device='cuda:0'), /) => tensor([-0.], device='cuda:0') == tensor([[-0.0718]], device='cuda:0')Test Loss: 0.07179543375968933	
+Epoch: 75/100	Batch Loss:inf	Test: (tensor([[22., 54.]], device='cuda:0'), /) => tensor([0.], device='cuda:0') == tensor([[-0.1920]], device='cuda:0')Test Loss: 0.1920103132724762	
+Epoch: 76/100	Batch Loss:inf	Test: (tensor([[-91.,  31.]], device='cuda:0'), /) => tensor([-3.], device='cuda:0') == tensor([[-1.0359]], device='cuda:0')Test Loss: 1.964081883430481	
+Epoch: 77/100	Batch Loss:inf	Test: (tensor([[-91.,  31.]], device='cuda:0'), /) => tensor([-3.], device='cuda:0') == tensor([[-1.0360]], device='cuda:0')Test Loss: 1.9640296697616577	
+Epoch: 78/100	Batch Loss:inf	Test: (tensor([[ 11., -58.]], device='cuda:0'), /) => tensor([-0.], device='cuda:0') == tensor([[-0.0346]], device='cuda:0')Test Loss: 0.03460974991321564	
+Epoch: 79/100	Batch Loss:inf	Test: (tensor([[-26., -91.]], device='cuda:0'), /) => tensor([0.], device='cuda:0') == tensor([[-0.2556]], device='cuda:0')Test Loss: 0.2555742859840393	
+Epoch: 80/100	Batch Loss:inf	Test: (tensor([[-64., -79.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-0.5822]], device='cuda:0')Test Loss: 1.5822372436523438	
+Epoch: 81/100	Batch Loss:inf	Test: (tensor([[-95.,  40.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[-1.0864]], device='cuda:0')Test Loss: 0.9136203527450562	
+Epoch: 82/100	Batch Loss:inf	Test: (tensor([[28., 52.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-0.1397]], device='cuda:0')Test Loss: 1.1397446393966675	
+Epoch: 83/100	Batch Loss:inf	Test: (tensor([[-51.,  92.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[-0.8515]], device='cuda:0')Test Loss: 0.14850515127182007	
+Epoch: 84/100	Batch Loss:inf	Test: (tensor([[  0., -31.]], device='cuda:0'), /) => tensor([-0.], device='cuda:0') == tensor([[-0.1806]], device='cuda:0')Test Loss: 0.1805516928434372	
+Epoch: 85/100	Batch Loss:inf	Test: (tensor([[-84., -37.]], device='cuda:0'), /) => tensor([2.], device='cuda:0') == tensor([[-0.8318]], device='cuda:0')Test Loss: 2.8317911624908447	
+Epoch: 86/100	Batch Loss:inf	Test: (tensor([[-70., -69.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-0.6514]], device='cuda:0')Test Loss: 1.6514363288879395	
+Epoch: 87/100	Batch Loss:inf	Test: (tensor([[96., 82.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[0.3327]], device='cuda:0')Test Loss: 0.6672568917274475	
+Epoch: 88/100	Batch Loss:inf	Test: (tensor([[ 42., -78.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[0.2538]], device='cuda:0')Test Loss: 1.2538068294525146	
+Epoch: 89/100	Batch Loss:inf	Test: (tensor([[ -5., -35.]], device='cuda:0'), /) => tensor([0.], device='cuda:0') == tensor([[-0.2114]], device='cuda:0')Test Loss: 0.21139352023601532	
+Epoch: 90/100	Batch Loss:inf	Test: (tensor([[-95.,  40.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[-1.0862]], device='cuda:0')Test Loss: 0.9138162136077881	
+Epoch: 91/100	Batch Loss:inf	Test: (tensor([[72., 88.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[0.1299]], device='cuda:0')Test Loss: 0.8700920343399048	
+Epoch: 92/100	Batch Loss:inf	Test: (tensor([[-95.,  40.]], device='cuda:0'), /) => tensor([-2.], device='cuda:0') == tensor([[-1.0862]], device='cuda:0')Test Loss: 0.9138197898864746	
+Epoch: 93/100	Batch Loss:inf	Test: (tensor([[-68., -20.]], device='cuda:0'), /) => tensor([3.], device='cuda:0') == tensor([[-0.7422]], device='cuda:0')Test Loss: 3.7421796321868896	
+Epoch: 94/100	Batch Loss:inf	Test: (tensor([[-51.,  92.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[-0.8514]], device='cuda:0')Test Loss: 0.14863669872283936	
+Epoch: 95/100	Batch Loss:inf	Test: (tensor([[-25., -42.]], device='cuda:0'), /) => tensor([1.], device='cuda:0') == tensor([[-0.3543]], device='cuda:0')Test Loss: 1.3543205261230469	
+Epoch: 96/100	Batch Loss:inf	Test: (tensor([[ -5., -35.]], device='cuda:0'), /) => tensor([0.], device='cuda:0') == tensor([[-0.2114]], device='cuda:0')Test Loss: 0.21140387654304504	
+Epoch: 97/100	Batch Loss:inf	Test: (tensor([[-22., -97.]], device='cuda:0'), /) => tensor([0.], device='cuda:0') == tensor([[-0.2110]], device='cuda:0')Test Loss: 0.21097248792648315	
+Epoch: 98/100	Batch Loss:inf	Test: (tensor([[-50., -11.]], device='cuda:0'), /) => tensor([5.], device='cuda:0') == tensor([[-0.6194]], device='cuda:0')Test Loss: 5.619422435760498	
+Epoch: 99/100	Batch Loss:inf	Test: (tensor([[ 72., -76.]], device='cuda:0'), /) => tensor([-1.], device='cuda:0') == tensor([[0.4866]], device='cuda:0')Test Loss: 1.4866135120391846	
+/: (WI:tensor([ 0.0079, -0.0022], device='cuda:0', grad_fn=<SelectBackward>) + b:-0.24799510836601257)
+
+
+Process finished with exit code 0

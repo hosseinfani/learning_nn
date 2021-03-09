@@ -24,7 +24,7 @@ class PrepareData(Dataset):
 
 def load_data(rawdata, sample=None):
     try:
-        data = scipy.sparse.load_npz('./../data/mikolov_bi_sg_data.npz')
+        data = scipy.sparse.load_npz('./../data/mikolov_rnnlm_data.npz')
     except:
         titles = []
         with open(rawdata, encoding='utf-8') as f:
@@ -40,71 +40,39 @@ def load_data(rawdata, sample=None):
                 f.write(f'{token}\n')
 
 
-        params.wv['w'] = 2
-        bigrams = [ngram for ngram in ngrams(stream_tokens, params.wv['w'])]#pair of (i, j)
-
-        #future: n-grams to bigram pairs
-        #n2bi_grams = [ngram for title in titles for ngram in ngrams(title, params.wv['w'])]
-
-        # create batches
-        params.wv['v'] = len(vocabs)
-        training_size = len(bigrams)
+        params.rnnlm['v'] = len(vocabs)
+        training_size = len(stream_tokens)
         if sample:
             training_size = sample
-        #
-        #Buy more RAM!!
-        #data = torch.empty(training_size, 1 * params.wv['v'] + 1)#1-hot vector + label (index of next word)
 
         #Sparse Matrix and bucketing
-        data = sparse.lil_matrix((training_size, 1 * params.wv['v'] + 1))
-        data_ = np.zeros((params.wv['b'], 1 * params.wv['v'] + 1))
+        # input data is a stream of "1-of-N" or 1-hot vectors for token each of which has the next token
+        data = sparse.lil_matrix((training_size, 1 * params.rnnlm['v'] + 1))
+        data_ = np.zeros((params.rnnlm['k1'], 1 * params.rnnlm['v'] + 1))
         j = -1
-        for i, grams in enumerate(bigrams):
+        for i, token in enumerate(stream_tokens[:-1]):
             if i >= training_size: break
-            X = np.zeros((1, len(vocabs)))
-            X[0, vocabs.index(grams[0])] = 1
-            y_index = vocabs.index(grams[1])
+            X = np.zeros((1, params.rnnlm['v']))
+            X[0, vocabs.index(stream_tokens[i])] = 1
+            y_index = vocabs.index(stream_tokens[i+1])
             y = np.asarray([y_index]).reshape((1,1))
             X_y = np.hstack([X, y])
             try:
                 j += 1
                 data_[j] = X_y
             except:
-                s = int(((i / params.wv['b']) - 1) * params.wv['b'])
-                e = int(s + params.wv['b'])
+                s = int(((i / params.rnnlm['k1']) - 1) * params.rnnlm['k1'])
+                e = int(s + params.rnnlm['k1'])
                 data[s: e] = data_
                 j = 0
                 data_[j] = X_y
-            if (i % params.wv['b'] == 0):
-                print(f'Loading {i}/{len(bigrams)} instances!{datetime.now()}')
+            if (i % params.rnnlm['k1'] == 0):
+                print(f'Loading {i}/{len(stream_tokens)} instances!{datetime.now()}')
 
         if j > -1:
             data[-j-1:] = data_[0:j+1]
 
-        scipy.sparse.save_npz('./../data/mikolov_bi_sg_data.npz', data.tocsr())
-
-        #Sparse Matrix => Slow!
-        # for i, grams in enumerate(bigrams):
-        #     if i >= training_size: break
-        #     # input
-        #     X = sparse.csr_matrix((1, len(vocabs)))
-        #     X[0, vocabs.index(grams[0])] = 1
-        #
-        #     # label: in our case, we have |V|-classifier and the class# is the index of word in the vocab
-        #     y_index = vocabs.index(grams[1])
-        #
-        #     y = sparse.csr_matrix((1,1))
-        #     y[0, 0] = y_index
-        #     X_y = sparse.hstack([X, y])
-        #
-        #     data[i] = X_y
-        #     if (i%1000 == 0):
-        #         print(f'Loading {i}/{len(bigrams)} instances!')
-
-        # don't have enough memory => bring it to batches
-        # if params.lm['g']:
-        #     data.cuda()
-
+        scipy.sparse.save_npz('./../data/mikolov_rnnlm_data.npz', data.tocsr())
 
     return PrepareData(X=data[:, :-1], y=data[:, -1])
 

@@ -1,8 +1,8 @@
 from torch import nn
 import torch
 import torch.nn.functional as F
-from bengio1lff_dropout import BengioLMDropout
-class BengioLME2E(BengioLMDropout):
+from bengio1lff_dropout import BengioNLMDropout
+class BengioNLME2E(BengioNLMDropout):
     def __init__(self, params):
         super().__init__(params)
 

@@ -58,18 +58,18 @@ class PrepareData(Dataset):
 ds = PrepareData(X=data[:, :-1], y=data[:, -1])
 ds = DataLoader(ds, batch_size=params.lm['b'], shuffle=True)
 
-from src.nn.bengio1lff import BengioLM
+from src.nn.bengio1lff import BengioNLM
 params.lm['v'] = len(w2v.wv.vocab)
 
 ##load an existing model
 # model = torch.load('./results/BengioLM_w5_d100_h100_v81272lr0.01_b1000_e5.ptc')
-# bengiolm_w2v = BengioLM(model['params'])
+# bengiolm_w2v = BengioNLM(model['params'])
 # bengiolm_w2v.load_state_dict(model['state'])
 
-bengiolm_w2v = BengioLM(params.lm, gpu=params.lm['g'])
+bengiolm_w2v = BengioNLM(params.lm, gpu=params.lm['g'])
 
-#from src.nn.bengio1lff_dropout import BengioLMDropout
-#bengiolm_w2v = BengioLMDropout(params.lm)
+#from src.nn.bengio1lff_dropout import BengioNLMDropout
+#bengiolm_w2v = BengioNLMDropout(params.lm)
 
 from torch import optim
 criterion = torch.nn.NLLLoss()

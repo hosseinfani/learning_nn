@@ -1,8 +1,8 @@
 from torch import nn
 import torch
 import torch.nn.functional as F
-from bengio1lff import BengioLM
-class BengioLMDropout(BengioLM):
+from bengio1lff import BengioNLM
+class BengioNLMDropout(BengioNLM):
     def __init__(self, params):
         super().__init__(params)
         self.dropout = nn.Dropout(p=0.2)
@@ -15,7 +15,7 @@ class BengioLMDropout(BengioLM):
         x = torch.softmax(x, dim=1)#we don't apply on our output because we need all classes!
         return x
 
-#BengioLM = nn.Sequential(nn.Linear(w * d, h),
+#BengioNLM = nn.Sequential(nn.Linear(w * d, h),
 #                         nn.Tanh(),
 #                         nn.Dropout(p=0.2),
 #                         nn.Linear(h, v))
