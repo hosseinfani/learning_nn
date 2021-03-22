@@ -19,11 +19,12 @@ class MikolovRNNLM(nn.Module):
 
     def forward(self, x, h_prev):
         x = torch.cat((x, h_prev), 1)
-        h_prev = self.U(x)
-        x = torch.sigmoid(h_prev)
+        x = self.U(x)
+        x = torch.sigmoid(x)
+        h_prev = x.detach().clone()#just a clear copy of the hidden layer which goes to input as a leaf again
         x = self.V(x)
         x = torch.softmax(x, dim=1)
-        return x, h_prev.detach()#this ignored an exception but not sure this is a fix!
+        return x, h_prev
 
     def save(self, path, **kwargs):
         model = {'params': self.params,

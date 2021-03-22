@@ -34,7 +34,7 @@ def load_data(rawdata, sample=None):
                 #vocabs = vocabs.union(set(words))
                 titles.append(words)
         stream_tokens = [token for title in titles for token in title]
-        vocabs = list(set(stream_tokens))
+        vocabs = list(dict.fromkeys(stream_tokens).keys())
         with open('./../data/vocabs.txt', 'w', encoding='utf-8') as f:
             for token in vocabs:
                 f.write(f'{token}\n')
